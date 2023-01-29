@@ -1,0 +1,1165 @@
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\trainingcenter.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (200.00 1056.00 55.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (36992 bytes)
+Error! prop_static using model "models/props_junk/wood_crate002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_junk/wood_crate002a.mdl"!
+Unable to load vertex data "models/wicked_custom/obstacles/ob_tanktrap_1.vvd"
+
+
+
+12 threads
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+Error opening e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+Error opening e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+
+
+materialPath: E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\trainingcenter.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (200.00 1056.00 55.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (36992 bytes)
+Error! prop_static using model "models/props_junk/wood_crate002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_junk/wood_crate002a.mdl"!
+Unable to load vertex data "models/wicked_custom/obstacles/ob_tanktrap_1.vvd"
+
+
+
+12 threads
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+Error opening e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+Error opening e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+
+
+materialPath: E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\trainingcenter.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (200.00 1056.00 55.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (36992 bytes)
+Error! prop_static using model "models/props_junk/wood_crate002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_junk/wood_crate002a.mdl"!
+Unable to load vertex data "models/wicked_custom/obstacles/ob_tanktrap_1.vvd"
+
+
+
+12 threads
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+Error opening e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+Error opening e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+
+
+materialPath: E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\trainingcenter.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\trainingcenter.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (36992 bytes)
+Unable to load vertex data "models/wicked_custom/obstacles/ob_tanktrap_1.vvd"
+
+
+
+12 threads
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+Error opening e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+Error opening e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+
+
+materialPath: E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\trainingcenter.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\trainingcenter.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (36992 bytes)
+Unable to load vertex data "models/wicked_custom/obstacles/ob_tanktrap_1.vvd"
+
+
+
+12 threads
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+Error opening e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+Error opening e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+
+
+materialPath: E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\trainingcenter.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\trainingcenter.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (36992 bytes)
+Unable to load vertex data "models/wicked_custom/obstacles/ob_tanktrap_1.vvd"
+
+
+
+12 threads
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+Error opening e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+
+
+materialPath: E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\trainingcenter.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\trainingcenter.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (36992 bytes)
+Unable to load vertex data "models/wicked_custom/obstacles/ob_tanktrap_1.vvd"
+
+
+
+12 threads
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+Error opening e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+
+
+materialPath: E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\trainingcenter.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\trainingcenter.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (36992 bytes)
+Unable to load vertex data "models/wicked_custom/obstacles/ob_tanktrap_1.vvd"
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\trainingcenter.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\trainingcenter.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (36992 bytes)
+Unable to load vertex data "models/wicked_custom/obstacles/ob_tanktrap_1.vvd"
+
+
+
+12 threads
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+Error opening e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+Error opening e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+
+
+materialPath: E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\trainingcenter.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\trainingcenter.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (36992 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 215 texinfos to 107
+Reduced 16 texdatas to 13 (385 bytes to 292)
+Writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+0 seconds elapsed
+
+
+
+12 threads
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.prt
+  58 portalclusters
+ 138 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 4 visible clusters (0.24%)
+Total clusters visible: 1636
+Average clusters visible: 28
+Building PAS...
+Average clusters audible: 32
+visdatasize:1471  compressed from 928
+writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+PREP OK
+392 faces
+40119 square feet [5777260.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+392 patches before subdivision
+5178 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 401861, max 290
+transfer lists:   3.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(6817, 6271, 5493)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1883, 1617, 1263)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(671, 523, 354)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(229, 163, 96)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(85, 55, 28)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(31, 18, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(12, 6, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(5, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0013 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/4096          432/196608   ( 0.2%) 
+brushes                 78/16384         936/196608   ( 0.5%) 
+brushsides             569/163840       4552/1310720  ( 0.3%) 
+planes                 574/65536       11480/1310720  ( 0.9%) 
+vertexes               681/65536        8172/786432   ( 1.0%) 
+nodes                  214/65536        6848/2097152  ( 0.3%) 
+texinfos               107/12288        7704/884736   ( 0.9%) 
+texdata                 13/2048          416/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  392/65536       21952/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              276/65536       15456/3670016  ( 0.4%) 
+leaves                 224/65536        7168/2097152  ( 0.3%) 
+leaffaces              439/65536         878/131072   ( 0.7%) 
+leafbrushes            132/65536         264/131072   ( 0.2%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             3046/512000      12184/2048000  ( 0.6%) 
+edges                 1775/256000       7100/1024000  ( 0.7%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips             12/32768         120/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           192/65536         384/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      350536/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1471/16777216 ( 0.0%) 
+entdata               [variable]        8318/393216   ( 2.1%) 
+LDR ambient table      224/65536         896/262144   ( 0.3%) 
+HDR ambient table      224/65536         896/262144   ( 0.3%) 
+LDR leaf ambient       512/65536       14336/1835008  ( 0.8%) 
+HDR leaf ambient       224/65536        6272/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/7908     ( 0.0%) 
+pakfile               [variable]       25175/0        ( 0.0%) 
+physics               [variable]       36992/4194304  ( 0.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1062
+Writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+0 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\trainingcenter.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\trainingcenter.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (36992 bytes)
+Unable to load vertex data "models/wicked_custom/obstacles/ob_tanktrap_2.vvd"
+
+
+
+12 threads
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.prt
+  58 portalclusters
+ 138 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 4 visible clusters (0.24%)
+Total clusters visible: 1636
+Average clusters visible: 28
+Building PAS...
+Average clusters audible: 32
+visdatasize:1471  compressed from 928
+writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+PREP OK
+392 faces
+40119 square feet [5777260.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+392 patches before subdivision
+5178 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 401861, max 290
+transfer lists:   3.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(6817, 6271, 5493)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1883, 1617, 1263)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(671, 523, 354)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(229, 163, 96)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(85, 55, 28)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(31, 18, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(12, 6, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(5, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0013 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/4096          432/196608   ( 0.2%) 
+brushes                 78/16384         936/196608   ( 0.5%) 
+brushsides             569/163840       4552/1310720  ( 0.3%) 
+planes                 574/65536       11480/1310720  ( 0.9%) 
+vertexes               681/65536        8172/786432   ( 1.0%) 
+nodes                  214/65536        6848/2097152  ( 0.3%) 
+texinfos               107/12288        7704/884736   ( 0.9%) 
+texdata                 13/2048          416/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  392/65536       21952/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              276/65536       15456/3670016  ( 0.4%) 
+leaves                 224/65536        7168/2097152  ( 0.3%) 
+leaffaces              439/65536         878/131072   ( 0.7%) 
+leafbrushes            132/65536         264/131072   ( 0.2%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             3046/512000      12184/2048000  ( 0.6%) 
+edges                 1775/256000       7100/1024000  ( 0.7%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips             12/32768         120/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           192/65536         384/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      350536/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1471/16777216 ( 0.0%) 
+entdata               [variable]        8318/393216   ( 2.1%) 
+LDR ambient table      224/65536         896/262144   ( 0.3%) 
+HDR ambient table      224/65536         896/262144   ( 0.3%) 
+LDR leaf ambient       512/65536       14336/1835008  ( 0.8%) 
+HDR leaf ambient       224/65536        6272/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/7908     ( 0.0%) 
+pakfile               [variable]       25175/0        ( 0.0%) 
+physics               [variable]       36992/4194304  ( 0.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1062
+Writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+0 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\trainingcenter.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\trainingcenter.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (36992 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 215 texinfos to 107
+Reduced 16 texdatas to 13 (385 bytes to 292)
+Writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+0 seconds elapsed
+
+
+
+12 threads
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.prt
+  58 portalclusters
+ 138 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 4 visible clusters (0.24%)
+Total clusters visible: 1636
+Average clusters visible: 28
+Building PAS...
+Average clusters audible: 32
+visdatasize:1471  compressed from 928
+writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+PREP OK
+392 faces
+40119 square feet [5777260.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+392 patches before subdivision
+5178 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 401861, max 290
+transfer lists:   3.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(6817, 6271, 5493)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1883, 1617, 1263)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(671, 523, 354)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(229, 163, 96)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(85, 55, 28)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(31, 18, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(12, 6, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(5, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0012 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/4096          432/196608   ( 0.2%) 
+brushes                 78/16384         936/196608   ( 0.5%) 
+brushsides             569/163840       4552/1310720  ( 0.3%) 
+planes                 574/65536       11480/1310720  ( 0.9%) 
+vertexes               681/65536        8172/786432   ( 1.0%) 
+nodes                  214/65536        6848/2097152  ( 0.3%) 
+texinfos               107/12288        7704/884736   ( 0.9%) 
+texdata                 13/2048          416/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  392/65536       21952/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              276/65536       15456/3670016  ( 0.4%) 
+leaves                 224/65536        7168/2097152  ( 0.3%) 
+leaffaces              439/65536         878/131072   ( 0.7%) 
+leafbrushes            132/65536         264/131072   ( 0.2%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             3046/512000      12184/2048000  ( 0.6%) 
+edges                 1775/256000       7100/1024000  ( 0.7%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips             12/32768         120/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           192/65536         384/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      350536/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1471/16777216 ( 0.0%) 
+entdata               [variable]        9017/393216   ( 2.3%) 
+LDR ambient table      224/65536         896/262144   ( 0.3%) 
+HDR ambient table      224/65536         896/262144   ( 0.3%) 
+LDR leaf ambient       512/65536       14336/1835008  ( 0.8%) 
+HDR leaf ambient       224/65536        6272/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/7906     ( 0.0%) 
+pakfile               [variable]       25175/0        ( 0.0%) 
+physics               [variable]       36992/4194304  ( 0.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1062
+Writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+0 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\trainingcenter.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\trainingcenter.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (36992 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 215 texinfos to 107
+Reduced 16 texdatas to 13 (385 bytes to 292)
+Writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+0 seconds elapsed
+
+
+
+12 threads
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.prt
+  60 portalclusters
+ 139 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 4 visible clusters (0.23%)
+Total clusters visible: 1710
+Average clusters visible: 28
+Building PAS...
+Average clusters audible: 32
+visdatasize:1510  compressed from 960
+writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+PREP OK
+401 faces
+40119 square feet [5777260.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+401 patches before subdivision
+5207 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 405394, max 290
+transfer lists:   3.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(6825, 6278, 5500)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1886, 1620, 1265)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(672, 523, 354)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(229, 163, 96)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(85, 55, 28)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(31, 18, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(12, 6, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(5, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0013 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/4096          432/196608   ( 0.2%) 
+brushes                 78/16384         936/196608   ( 0.5%) 
+brushsides             569/163840       4552/1310720  ( 0.3%) 
+planes                 572/65536       11440/1310720  ( 0.9%) 
+vertexes               695/65536        8340/786432   ( 1.1%) 
+nodes                  216/65536        6912/2097152  ( 0.3%) 
+texinfos               107/12288        7704/884736   ( 0.9%) 
+texdata                 13/2048          416/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  401/65536       22456/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              276/65536       15456/3670016  ( 0.4%) 
+leaves                 226/65536        7232/2097152  ( 0.3%) 
+leaffaces              444/65536         888/131072   ( 0.7%) 
+leafbrushes            136/65536         272/131072   ( 0.2%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             3096/512000      12384/2048000  ( 0.6%) 
+edges                 1806/256000       7224/1024000  ( 0.7%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips             14/32768         140/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           210/65536         420/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      355052/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1510/16777216 ( 0.0%) 
+entdata               [variable]        9017/393216   ( 2.3%) 
+LDR ambient table      226/65536         904/262144   ( 0.3%) 
+HDR ambient table      226/65536         904/262144   ( 0.3%) 
+LDR leaf ambient       552/65536       15456/1835008  ( 0.8%) 
+HDR leaf ambient       226/65536        6328/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/7924     ( 0.0%) 
+pakfile               [variable]       25175/0        ( 0.0%) 
+physics               [variable]       36992/4194304  ( 0.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1094
+Writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+0 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\trainingcenter.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\trainingcenter.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (36992 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 215 texinfos to 107
+Reduced 16 texdatas to 13 (385 bytes to 292)
+Writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+0 seconds elapsed
+
+
+
+12 threads
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.prt
+  60 portalclusters
+ 139 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 4 visible clusters (0.23%)
+Total clusters visible: 1710
+Average clusters visible: 28
+Building PAS...
+Average clusters audible: 32
+visdatasize:1510  compressed from 960
+writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+PREP OK
+401 faces
+40119 square feet [5777260.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+401 patches before subdivision
+5207 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 405368, max 290
+transfer lists:   3.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(6825, 6278, 5500)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1886, 1620, 1265)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(672, 523, 354)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(229, 163, 96)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(85, 55, 28)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(31, 18, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(12, 6, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(5, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0010 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/4096          432/196608   ( 0.2%) 
+brushes                 78/16384         936/196608   ( 0.5%) 
+brushsides             569/163840       4552/1310720  ( 0.3%) 
+planes                 572/65536       11440/1310720  ( 0.9%) 
+vertexes               695/65536        8340/786432   ( 1.1%) 
+nodes                  216/65536        6912/2097152  ( 0.3%) 
+texinfos               107/12288        7704/884736   ( 0.9%) 
+texdata                 13/2048          416/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  401/65536       22456/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              276/65536       15456/3670016  ( 0.4%) 
+leaves                 226/65536        7232/2097152  ( 0.3%) 
+leaffaces              444/65536         888/131072   ( 0.7%) 
+leafbrushes            136/65536         272/131072   ( 0.2%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             3096/512000      12384/2048000  ( 0.6%) 
+edges                 1806/256000       7224/1024000  ( 0.7%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips             14/32768         140/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           210/65536         420/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      355052/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1510/16777216 ( 0.0%) 
+entdata               [variable]        9017/393216   ( 2.3%) 
+LDR ambient table      226/65536         904/262144   ( 0.3%) 
+HDR ambient table      226/65536         904/262144   ( 0.3%) 
+LDR leaf ambient       555/65536       15540/1835008  ( 0.8%) 
+HDR leaf ambient       226/65536        6328/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/7928     ( 0.0%) 
+pakfile               [variable]       25175/0        ( 0.0%) 
+physics               [variable]       36992/4194304  ( 0.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1094
+Writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+0 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\trainingcenter.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\trainingcenter.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (36992 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 216 texinfos to 107
+Reduced 16 texdatas to 13 (385 bytes to 292)
+Writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+0 seconds elapsed
+
+
+
+12 threads
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.prt
+  60 portalclusters
+ 139 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 4 visible clusters (0.23%)
+Total clusters visible: 1710
+Average clusters visible: 28
+Building PAS...
+Average clusters audible: 32
+visdatasize:1510  compressed from 960
+writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+PREP OK
+401 faces
+40119 square feet [5777260.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+401 patches before subdivision
+5207 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 405368, max 290
+transfer lists:   3.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(6825, 6278, 5500)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1886, 1620, 1265)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(672, 523, 354)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(229, 163, 96)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(85, 55, 28)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(31, 18, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(12, 6, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(5, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0011 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/4096          432/196608   ( 0.2%) 
+brushes                 78/16384         936/196608   ( 0.5%) 
+brushsides             569/163840       4552/1310720  ( 0.3%) 
+planes                 572/65536       11440/1310720  ( 0.9%) 
+vertexes               695/65536        8340/786432   ( 1.1%) 
+nodes                  216/65536        6912/2097152  ( 0.3%) 
+texinfos               107/12288        7704/884736   ( 0.9%) 
+texdata                 13/2048          416/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  401/65536       22456/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              276/65536       15456/3670016  ( 0.4%) 
+leaves                 226/65536        7232/2097152  ( 0.3%) 
+leaffaces              444/65536         888/131072   ( 0.7%) 
+leafbrushes            136/65536         272/131072   ( 0.2%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             3096/512000      12384/2048000  ( 0.6%) 
+edges                 1806/256000       7224/1024000  ( 0.7%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips             14/32768         140/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           210/65536         420/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      355052/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1510/16777216 ( 0.0%) 
+entdata               [variable]        9017/393216   ( 2.3%) 
+LDR ambient table      226/65536         904/262144   ( 0.3%) 
+HDR ambient table      226/65536         904/262144   ( 0.3%) 
+LDR leaf ambient       555/65536       15540/1835008  ( 0.8%) 
+HDR leaf ambient       226/65536        6328/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/7928     ( 0.0%) 
+pakfile               [variable]       25175/0        ( 0.0%) 
+physics               [variable]       36992/4194304  ( 0.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1094
+Writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\trainingcenter.bsp
+0 seconds elapsed
