@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "9349"
-	"mapversion" "210"
+	"editorbuild" "9351"
+	"mapversion" "211"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "210"
+	"mapversion" "211"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -25133,33 +25133,6 @@ entity
 }
 entity
 {
-	"id" "3774"
-	"classname" "prop_static"
-	"angles" "0 45 0"
-	"disableselfshadowing" "0"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"ignorenormals" "0"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/dav0r/buttons/button.mdl"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "6"
-	"origin" "1621 3484 -602"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -12268]"
-	}
-}
-entity
-{
 	"id" "3824"
 	"classname" "prop_static"
 	"angles" "0 90 0"
@@ -26894,7 +26867,6 @@ entity
 	connections
 	{
 		"OnDamaged" "target_gren_2,Open,,0,-1"
-		"OnDamaged" "target_gren_2,Close,,3,-1"
 	}
 	solid
 	{
@@ -27007,7 +26979,6 @@ entity
 	connections
 	{
 		"OnDamaged" "target_gren_1,Open,,0,-1"
-		"OnDamaged" "target_gren_1,Close,,3,-1"
 	}
 	solid
 	{
@@ -27922,7 +27893,6 @@ entity
 	connections
 	{
 		"OnDamaged" "target_gren_4,Open,,0,-1"
-		"OnDamaged" "target_gren_4,Close,,3,-1"
 	}
 	solid
 	{
@@ -29639,7 +29609,6 @@ entity
 	connections
 	{
 		"OnDamaged" "target_gren_3,Open,,0,-1"
-		"OnDamaged" "target_gren_3,Close,,3,-1"
 	}
 	solid
 	{

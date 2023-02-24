@@ -21232,3 +21232,149 @@ Level flags = 0
 Total triangle count: 5663
 Writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
 7 seconds elapsed
+
+
+
+materialPath: C:\steamcmd\steamapps\common\GarrysMod\garrysmod\materials
+Loading Z:\home\milou\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing Z:\home\milou\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_05*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_05*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (144508 bytes)
+WARNING! model "models/props_foliage/mall_pot_large01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/mall_big_plant01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/mall_small_palm01_medium.mdl" has mismatching model version (49, expected 48)! Expect problems.
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 772 texinfos to 376
+Reduced 40 texdatas to 36 (926 bytes to 807)
+Writing Z:\home\milou\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+5 seconds elapsed
+
+
+
+8 threads
+reading z:\home\milou\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+reading z:\home\milou\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.prt
+ 461 portalclusters
+1124 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 81 visible clusters (0.21%)
+Total clusters visible: 38426
+Average clusters visible: 83
+Building PAS...
+Average clusters audible: 148
+visdatasize:35070  compressed from 59008
+writing z:\home\milou\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading z:\home\milou\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+PREP OK
+Warning! Invalid model version "models/props_foliage/mall_pot_large01.mdl"
+Warning! Invalid model version "models/props_foliage/mall_big_plant01.mdl"
+Warning! Invalid model version "models/props_foliage/mall_small_palm01_medium.mdl"
+2092 faces
+650957 square feet [93737920.00 square inches]
+2 Displacements
+2784 Square Feet [401003.59 Square Inches]
+2092 patches before subdivision
+43418 patches after subdivision
+103 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1895152, max 276
+transfer lists:  14.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(150405, 129795, 91443)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(36714, 27031, 15288)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(10247, 6643, 3244)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3008, 1751, 755)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(935, 497, 191)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(302, 148, 52)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(101, 46, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(35, 15, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(12, 5, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(4, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0147 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/4096          816/196608   ( 0.4%) 
+brushes                353/16384        4236/196608   ( 2.2%) 
+brushsides            2501/163840      20008/1310720  ( 1.5%) 
+planes                1966/65536       39320/1310720  ( 3.0%) 
+vertexes              3358/65536       40296/786432   ( 5.1%) 
+nodes                 1162/65536       37184/2097152  ( 1.8%) 
+texinfos               376/12288       27072/884736   ( 3.1%) 
+texdata                 36/2048         1152/65536    ( 1.8%) 
+dispinfos                2/0             352/0        ( 0.0%) 
+disp_verts             162/0            3240/0        ( 0.0%) 
+disp_tris              256/0             512/0        ( 0.0%) 
+disp_lmsamples        5984/0            5984/0        ( 0.0%) 
+faces                 2092/65536      117152/3670016  ( 3.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1086/65536       60816/3670016  ( 1.7%) 
+leaves                1180/65536       37760/2097152  ( 1.8%) 
+leaffaces             2493/65536        4986/131072   ( 3.8%) 
+leafbrushes            876/65536        1752/131072   ( 1.3%) 
+areas                    6/1024           48/8192     ( 0.6%) 
+surfedges            14383/512000      57532/2048000  ( 2.8%) 
+edges                 8272/256000      33088/1024000  ( 3.2%) 
+LDR worldlights        103/8192         9064/720896   ( 1.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            161/32768        1610/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2427/65536        4854/131072   ( 3.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 1/1024          352/360448   ( 0.1%) 
+LDR lightdata         [variable]     1700164/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       35070/16777216 ( 0.2%) 
+entdata               [variable]       93736/393216   (23.8%) 
+LDR ambient table     1180/65536        4720/262144   ( 1.8%) 
+HDR ambient table     1180/65536        4720/262144   ( 1.8%) 
+LDR leaf ambient      4100/65536      114800/1835008  ( 6.3%) 
+HDR leaf ambient      1180/65536       33040/1835008  ( 1.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/44574    ( 0.0%) 
+pakfile               [variable]       87057/0        ( 0.0%) 
+physics               [variable]      144508/4194304  ( 3.4%) 
+physics terrain       [variable]         878/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 5663
+Writing z:\home\milou\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+11 seconds elapsed
