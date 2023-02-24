@@ -20,7 +20,7 @@ if SERVER then
         self:SetUseType(SIMPLE_USE)
         self:DropToFloor()
     end
-    
+
     function ENT:Use(ply, caller, useType, value)
         net.Start("MRP::cirfaReception")
         net.Send(ply)
@@ -33,12 +33,6 @@ if SERVER then
         else
             ply:SetNWBool("MRP::isSignedUp", true)
             table.insert(MRP.waitingTrainees, ply)
-        end
-        for _, room in pairs(MRP.trainingCenter.targetRoom) do
-            if room.trainee == nil then
-                room:acceptTrainee(ply)
-                return
-            end
         end
     end)
 end

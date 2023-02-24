@@ -16,11 +16,11 @@ local function target(targetId, doorId)
 end
 MRP.waitingTrainees = {}
 MRP.trainingCenter = {
-    receptionnistPos = Vector(2480, -179, 68),
+    receptionnistPos = Vector(2480, -179, 8),
     receptionnistAng = Angle(5, 44, 0),
     targetRoom = {
         { -- target room of the fist circuit
-            spawnPos = Vector(2659, 3360, -575),
+            spawnPos = Vector(2659, 3360, -635),
             spawnAng = Angle(6, 0, 0),
             targets = {
                 target(1237, 1236),
@@ -33,7 +33,7 @@ MRP.trainingCenter = {
     },
     courseRoom = {
         { -- course room of the fist circuit
-            spawnPos = Vector(1672, 3338, -575),
+            spawnPos = Vector(1672, 3338, -635),
             spawnAng = Angle(2, -2, 0),
             trainee = nil
         }

@@ -28,27 +28,32 @@ local translation = {
 ---@field targets table<target> The targets trainees will have to hit
 ---@field trainee Player The trainee in the room
 local targetRoom = {}
+targetRoom.timeBeforeTP = 5
 function targetRoom:seekTrainee()
     for k, v in pairs(MRP.waitingTrainees) do
+        -- remove from the list the first trainee we finf
+        table.remove(MRP.waitingTrainees, k)
+        -- if this trainee is alive, accept him and break the loop
         if v:Alive() then
-            local timeBeforeTP = 5
-            timer.Simple(timeBeforeTP, function ()
-                self:acceptTrainee(v)
-            end)
-            local countDown = timeBeforeTP
-            timer.Create("MRP::trainingCenter::TPCountDown" .. v:SteamID64(), 1, timeBeforeTP, function ()
-                v:ChatPrint(translation[lang].countDown:format(countDown))
-                countDown = countDown - 1
-            end)
-        else
-            table.remove(MRP.waitingTrainees, k)
+            self:acceptTrainee(v)
+            break
         end
     end
 end
 function targetRoom:acceptTrainee(trainee)
-    trainee:SetPos(self.spawnPos)
-    trainee:SetEyeAngles(self.spawnAng)
-    self.trainee = trainee
+    table.RemoveByValue(MRP.waitingTrainees, trainee)
+    timer.Simple(self.timeBeforeTP, function ()
+        if trainee:Alive() then
+            trainee:SetPos(self.spawnPos)
+            trainee:SetEyeAngles(self.spawnAng)
+            self.trainee = trainee
+        end
+    end)
+    local countDown = self.timeBeforeTP
+    timer.Create("MRP::trainingCenter::TPCountDown" .. trainee:SteamID64(), 1, self.timeBeforeTP, function ()
+        trainee:ChatPrint(translation[lang].countDown:format(countDown))
+        countDown = countDown - 1
+    end)
 end
 function targetRoom:tptrainee()
     timer.Create("MRP::trainingCenter::seekingFreeRoom" .. self.trainee:SteamID64(), 5, 0, function ()
@@ -59,7 +64,6 @@ function targetRoom:tptrainee()
                 self.trainee:SetEyeAngles(room.spawnAng)
                 timer.Remove("MRP::trainingCenter::seekingFreeRoom" .. self.trainee:SteamID64())
                 self.trainee = nil
-                self:seekTrainee()
                 return
             end
         end
@@ -87,6 +91,14 @@ hook.Add("InitPostEntity", "MRP::trainingCenter::init", function ()
             target.doorEntity = ents.GetMapCreatedEntity(target.doorMapId)
         end
     end
+    timer.Create("MRP::trainingCenter::seekingTrainee", 5, 0, function ()
+        for _, v in pairs(MRP.trainingCenter.targetRoom) do
+            if v.trainee == nil then
+                v:seekTrainee()
+                break
+            end
+        end
+    end)
 end)
 
 hook.Add("EntityTakeDamage", "MRP::trainingCenter::targetHit", function (ent, dmgInfo)

@@ -1,9 +1,9 @@
-AddCSLuaFile("trainingcenter/shared.lua")
-AddCSLuaFile("trainingcenter/client.lua")
+AddCSLuaFile("trainingcenter/sh_trainingcenter.lua")
+AddCSLuaFile("trainingcenter/cl_trainingcenter.lua")
 
-include("trainingcenter/shared.lua")
+include("trainingcenter/sh_trainingcenter.lua")
 if CLIENT then
-    include("trainingcenter/client.lua")
+    include("trainingcenter/cl_trainingcenter.lua")
 else
-    include("trainingcenter/server.lua")
+    include("trainingcenter/sv_trainingcenter.lua")
 end
