@@ -27,15 +27,20 @@ MRP.trainingCenter = {
                 target(1242, 1243),
                 target(1238, 1239),
                 target(1240, 1241)
-            },
-            trainee = nil
+            }
         }
     },
     courseRoom = {
         { -- course room of the fist circuit
             spawnPos = Vector(1672, 3338, -635),
             spawnAng = Angle(2, -2, 0),
-            trainee = nil
+            buttonPos = Vector(1621, 3485, -599)
+        }
+    },
+    grenadeRoom = {
+        { -- course room of the fist circuit
+            spawnPos = Vector(744, 3339, -635),
+            spawnAng = Angle(10, 0, 0)
         }
     }
 }

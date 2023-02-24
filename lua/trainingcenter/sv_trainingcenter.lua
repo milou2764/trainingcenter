@@ -1,8 +1,13 @@
 if game.GetMap() ~= "trainingcenter" then return end
 
 concommand.Add("getposeye", function(ply,cmd,args,argStr)
-    print(ply:GetEyeTrace().HitPos)
-    ply:ChatPrint(tostring(ply:GetEyeTrace().HitPos))
+    local pos = ply:GetEyeTrace().HitPos
+    local x = math.Round(pos.x, 0)
+    local y = math.Round(pos.y, 0)
+    local z = math.Round(pos.z, 0)
+    local nicePos = "Vector(" .. x .. ", " .. y .. ", " .. z .. ")"
+    print(nicePos)
+    ply:ChatPrint(nicePos)
 end)
 concommand.Add("getid", function(ply,cmd,args,argStr)
     print(tostring(ply:GetEyeTrace().Entity:MapCreationID()))
@@ -21,15 +26,65 @@ local translation = {
     }
 }
 
-
----@class targetRoom The first room trainees will be teleported in
+---@class Room
 ---@field spawnPos Vector The position trainees will be teleported when they get in
 ---@field spawnAng Angle
----@field targets table<target> The targets trainees will have to hit
 ---@field trainee Player The trainee in the room
-local targetRoom = {}
-targetRoom.timeBeforeTP = 5
-function targetRoom:seekTrainee()
+---@field nextRooms table<Room> The rooms trainees will be teleported in when they leave this room
+local Room = {}
+Room.timeBeforeTP = 5
+Room.trainee = nil
+function Room:setTrainee(trainee)
+    self.trainee = trainee
+end
+function Room:tptrainee()
+    timer.Create("MRP::trainingCenter::seekingFreeRoom" .. self.trainee:SteamID64(), 5, 0, function ()
+        for _, r in pairs(self.nextRooms) do
+            if r.trainee == nil then
+                r:setTrainee(self.trainee)
+                self.trainee:SetPos(r.spawnPos)
+                self.trainee:SetEyeAngles(r.spawnAng)
+                timer.Remove("MRP::trainingCenter::seekingFreeRoom" .. self.trainee:SteamID64())
+                self.trainee = nil
+                self:traineeLeft()
+                return
+            end
+        end
+        self.trainee:ChatPrint(translation[lang].noFreeRoom)
+    end)
+end
+function Room:traineeLeft()
+    -- to be overriden
+end
+
+---@class GrenadeRoom:Room The first room trainees will be teleported in
+local GrenadeRoom = {}
+GrenadeRoom.nextRooms = MRP.trainingCenter.grenadeRoom
+setmetatable(GrenadeRoom, {__index = Room})
+for _, v in pairs(MRP.trainingCenter.grenadeRoom) do
+    setmetatable(v, {__index = GrenadeRoom})
+end
+
+---@class CourseRoom:Room The first room trainees will be teleported in
+---@field button Entity The invisible button trainees will have to push to teleport to the next room
+local CourseRoom = {}
+CourseRoom.nextRooms = MRP.trainingCenter.grenadeRoom
+setmetatable(CourseRoom, {__index = Room})
+function CourseRoom:traineeLeft()
+    self.button.hasBeenPushed = false
+end
+for _, v in pairs(MRP.trainingCenter.courseRoom) do
+    setmetatable(v, {__index = CourseRoom})
+end
+
+
+---@class TargetRoom:Room The first room trainees will be teleported in
+---@field targets table<target> The targets trainees will have to hit
+local TargetRoom = {}
+setmetatable(TargetRoom, {__index = Room})
+
+TargetRoom.nextRooms = MRP.trainingCenter.courseRoom
+function TargetRoom:seekTrainee()
     for k, v in pairs(MRP.waitingTrainees) do
         -- remove from the list the first trainee we finf
         table.remove(MRP.waitingTrainees, k)
@@ -40,7 +95,7 @@ function targetRoom:seekTrainee()
         end
     end
 end
-function targetRoom:acceptTrainee(trainee)
+function TargetRoom:acceptTrainee(trainee)
     table.RemoveByValue(MRP.waitingTrainees, trainee)
     timer.Simple(self.timeBeforeTP, function ()
         if trainee:Alive() then
@@ -55,28 +110,16 @@ function targetRoom:acceptTrainee(trainee)
         countDown = countDown - 1
     end)
 end
-function targetRoom:tptrainee()
-    timer.Create("MRP::trainingCenter::seekingFreeRoom" .. self.trainee:SteamID64(), 5, 0, function ()
-        for _, room in pairs(MRP.trainingCenter.courseRoom) do
-            if room.trainee == nil then
-                room.trainee = self.trainee
-                self.trainee:SetPos(room.spawnPos)
-                self.trainee:SetEyeAngles(room.spawnAng)
-                timer.Remove("MRP::trainingCenter::seekingFreeRoom" .. self.trainee:SteamID64())
-                self.trainee = nil
-                return
-            end
-        end
-        self.trainee:ChatPrint(translation[lang].noFreeRoom)
-    end)
-end
-function targetRoom:traineeLeft()
+function TargetRoom:traineeLeft()
     -- close the doors
     timer.Simple(3, function ()
         for _, target in pairs(self.targets) do
             target.doorEntity:Fire("Close")
         end
     end)
+end
+for _, v in pairs(MRP.trainingCenter.targetRoom) do
+    setmetatable(v, {__index = TargetRoom})
 end
 
 hook.Add("InitPostEntity", "MRP::trainingCenter::init", function ()
@@ -85,7 +128,6 @@ hook.Add("InitPostEntity", "MRP::trainingCenter::init", function ()
     receptionnist:SetAngles(MRP.trainingCenter.receptionnistAng)
     receptionnist:Spawn()
     for _, v in pairs(MRP.trainingCenter.targetRoom) do
-        setmetatable(v, {__index = targetRoom})
         for _, target in pairs(v.targets) do
             target.entity = ents.GetMapCreatedEntity(target.mapId)
             target.doorEntity = ents.GetMapCreatedEntity(target.doorMapId)
@@ -99,20 +141,31 @@ hook.Add("InitPostEntity", "MRP::trainingCenter::init", function ()
             end
         end
     end)
+    for _, v in pairs(MRP.trainingCenter.courseRoom) do
+        -- create an invisible button to teleport trainees to the next room
+        v.button = ents.Create("mrp_courseroom_button")
+        v.button:SetPos(v.buttonPos)
+        v.button:Spawn()
+        v.button.room = v
+    end
+
 end)
 
 hook.Add("EntityTakeDamage", "MRP::trainingCenter::targetHit", function (ent, dmgInfo)
+    local entityWasTarget = false
     for _, v in pairs(MRP.trainingCenter.targetRoom) do
         local shouldTPTrainee = true
         for _, target in pairs(v.targets) do
             if target.entity == ent then
                 target.hit = true
+                entityWasTarget = true
             end
             shouldTPTrainee = shouldTPTrainee and target.hit
         end
-        if shouldTPTrainee then
-            v:tptrainee()
-            v:traineeLeft()
+        if entityWasTarget then
+            if shouldTPTrainee then
+                v:tptrainee()
+            end
             break
         end
     end
