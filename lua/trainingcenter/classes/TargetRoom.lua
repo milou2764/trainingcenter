@@ -44,6 +44,7 @@ if SERVER then
     end
     function MRP.TargetRoom:traineeLeft()
         self.trainee:StripWeapons()
+        self.trainee:StripAmmo()
         net.Start("trainingCenter::targetRoom::resetTime")
         net.Send(self.trainee)
         timer.Remove("trainingCenter::targetRoom::timer")

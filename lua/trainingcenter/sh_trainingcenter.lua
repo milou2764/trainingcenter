@@ -6,16 +6,20 @@ MRP.translation = {
         noFreeRoom = "Veuillez patienter que la salle suivante se libère s'il vous plaît",
         trainingCenter = {
             timeOut = "Vous avez dépassé le temps imparti",
-            hint = "Vous pouvez vous inscrire à la formation en intéragissant avec le réceptionniste"
-        }
+            hint = "Vous pouvez vous inscrire à la formation en intéragissant avec le réceptionniste",
+            congrats = "Félicitations, vous avez terminé la formation, vous allez maitenant être déployé sur le terrain"
+        },
+        trainingIsOver = "La formation est terminée"
     },
     EN = {
         countDown = "Teleporting in %s s",
         noFreeRoom = "Please wait for the next room to be free",
         trainingCenter = {
             timeOut = "You exceeded the time limit",
-            hint = "You can sign up for the training by interacting with the receptionist"
-        }
+            hint = "You can sign up for the training by interacting with the receptionist",
+            congrats = "Congratulations, you have completed the training, you will now be deployed on the field"
+        },
+        trainingIsOver = "The training is over"
     }
 }
 
@@ -62,7 +66,13 @@ MRP.trainingCenter = {
     grenadeRooms = {
         { -- course room of the fist circuit
             spawnPos = Vector(744, 3339, -635),
-            spawnAng = Angle(10, 0, 0)
+            spawnAng = Angle(10, 0, 0),
+            targets = {
+                target(1251, 1252),
+                target(1250, 1249),
+                target(1256, 1255),
+                target(1253, 1254)
+            }
         }
     }
 }

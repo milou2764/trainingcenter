@@ -17,38 +17,43 @@ end)
 util.AddNetworkString("trainingCenter::targetRoom::countDown")
 util.AddNetworkString("trainingCenter::targetRoom::resetTime")
 
-hook.Add("InitPostEntity", "MRP::trainingCenter::init", function ()
-    local receptionnist = ents.Create("mrp_receptionnist")
-    receptionnist:SetPos(MRP.trainingCenter.receptionnistPos)
-    receptionnist:SetAngles(MRP.trainingCenter.receptionnistAng)
-    receptionnist:Spawn()
-    for _, v in pairs(MRP.trainingCenter.targetRooms) do
+local function initTargets(rooms)
+    for _, v in pairs(rooms) do
         for _, target in pairs(v.targets) do
             target.entity = ents.GetMapCreatedEntity(target.mapId)
             target.doorEntity = ents.GetMapCreatedEntity(target.doorMapId)
         end
     end
-    timer.Create("MRP::trainingCenter::seekingTrainee", 5, 0, function ()
-        for _, v in pairs(MRP.trainingCenter.targetRooms) do
-            if v.trainee == nil then
-                v:seekTrainee()
-                break
+end
+hook.Add("InitPostEntity", "MRP::trainingCenter::init", function ()
+    local receptionnist = ents.Create("mrp_receptionnist")
+    receptionnist:SetPos(MRP.trainingCenter.receptionnistPos)
+    receptionnist:SetAngles(MRP.trainingCenter.receptionnistAng)
+    receptionnist:Spawn()
+    timer.Simple(2, function ()
+        timer.Create("MRP::trainingCenter::seekingTrainee", 5, 0, function ()
+            initTargets(MRP.trainingCenter.targetRooms)
+            initTargets(MRP.trainingCenter.grenadeRooms)
+            for _, v in pairs(MRP.trainingCenter.targetRooms) do
+                if v.trainee == nil then
+                    v:seekTrainee()
+                    break
+                end
             end
+        end)
+        for _, v in pairs(MRP.trainingCenter.courseRooms) do
+            -- create an invisible button to teleport trainees to the next room
+            v.button = ents.Create("mrp_courseroom_button")
+            v.button:SetPos(v.buttonPos)
+            v.button:Spawn()
+            v.button.room = v
         end
     end)
-    for _, v in pairs(MRP.trainingCenter.courseRooms) do
-        -- create an invisible button to teleport trainees to the next room
-        v.button = ents.Create("mrp_courseroom_button")
-        v.button:SetPos(v.buttonPos)
-        v.button:Spawn()
-        v.button.room = v
-    end
-
 end)
 
-hook.Add("EntityTakeDamage", "MRP::trainingCenter::targetHit", function (ent, dmgInfo)
+local function checkTargetsHit(rooms, ent)
     local entityWasTarget = false
-    for _, v in pairs(MRP.trainingCenter.targetRooms) do
+    for _, v in pairs(rooms) do
         local shouldTPTrainee = true
         for _, target in pairs(v.targets) do
             if target.entity == ent then
@@ -61,8 +66,16 @@ hook.Add("EntityTakeDamage", "MRP::trainingCenter::targetHit", function (ent, dm
             if shouldTPTrainee then
                 v:tptrainee()
             end
-            break
+            return true
         end
+    end
+    return false
+end
+hook.Add("EntityTakeDamage", "MRP::trainingCenter::targetHit", function (ent, dmgInfo)
+    if checkTargetsHit(MRP.trainingCenter.targetRooms, ent) then
+        return
+    else
+        checkTargetsHit(MRP.trainingCenter.grenadeRooms, ent)
     end
 end)
 
@@ -70,5 +83,6 @@ end)
 hook.Add("PlayerSpawn", "MRP::trainingcenter::PlayerSpawn", function(player, _)
     timer.Simple(1, function ()
         player:StripWeapons()
+        player:StripAmmo()
     end)
 end)
