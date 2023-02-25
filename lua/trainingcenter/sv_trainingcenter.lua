@@ -1,5 +1,3 @@
-if game.GetMap() ~= "trainingcenter" then return end
-
 concommand.Add("getposeye", function(ply,cmd,args,argStr)
     local pos = ply:GetEyeTrace().HitPos
     local x = math.Round(pos.x, 0)

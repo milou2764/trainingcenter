@@ -1,3 +1,4 @@
+if game.GetMap() ~= "trainingcenter" then return end
 AddCSLuaFile("trainingcenter/sh_trainingcenter.lua")
 AddCSLuaFile("trainingcenter/classes/Room.lua")
 AddCSLuaFile("trainingcenter/classes/GrenadeRoom.lua")
