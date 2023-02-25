@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9351"
-	"mapversion" "212"
+	"mapversion" "213"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "212"
+	"mapversion" "213"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -33912,7 +33912,6 @@ entity
 	"gmod_allowphysgun" "0"
 	"health" "0"
 	"HoldAnimation" "0"
-	"lightingorigin" "lighttt"
 	"MaxAnimTime" "10"
 	"maxdxlevel" "0"
 	"MinAnimTime" "5"
@@ -45378,21 +45377,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -3768]"
-	}
-}
-entity
-{
-	"id" "123604"
-	"classname" "info_lighting"
-	"spawnflags" "0"
-	"targetname" "lighttt"
-	"origin" "200 347 99"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
 	}
 }
 entity

@@ -5,14 +5,16 @@ MRP.translation = {
         countDown = "Téléportation dans %s s",
         noFreeRoom = "Veuillez patienter que la salle suivante se libère s'il vous plaît",
         trainingCenter = {
-            timeOut = "Vous avez dépassé le temps imparti"
+            timeOut = "Vous avez dépassé le temps imparti",
+            hint = "Vous pouvez vous inscrire à la formation en intéragissant avec le réceptionniste"
         }
     },
     EN = {
         countDown = "Teleporting in %s s",
         noFreeRoom = "Please wait for the next room to be free",
         trainingCenter = {
-            timeOut = "You exceeded the time limit"
+            timeOut = "You exceeded the time limit",
+            hint = "You can sign up for the training by interacting with the receptionist"
         }
     }
 }
@@ -33,9 +35,6 @@ local function target(targetId, doorId)
     }
 end
 MRP.waitingTrainees = {}
-MRP.TargetRoom = {
-    timeLimit = 45
-}
 MRP.trainingCenter = {
     receptionnistPos = Vector(2480, -179, 8),
     receptionnistAng = Angle(5, 44, 0),
