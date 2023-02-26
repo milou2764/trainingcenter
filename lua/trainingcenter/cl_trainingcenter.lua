@@ -1,3 +1,6 @@
+MRP = MRP or {}
+MRP.trainingCenter = MRP.trainingCenter or {}
+MRP.trainingCenter.remainingTime = 0
 hook.Add("InitPostEntity", "MRP::cirfaReception::hint", function ()
     -- we want to wait for the player to be fully loaded before calling methods on him
     local ply = LocalPlayer()

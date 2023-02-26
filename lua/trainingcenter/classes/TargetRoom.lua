@@ -6,6 +6,9 @@ MRP.TargetRoom = {
 }
 if SERVER then
     setmetatable(MRP.TargetRoom, {__index = MRP.Room})
+
+    MRP.TargetRoom.netName = 'grenadeRoom'
+
     MRP.TargetRoom.nextRooms = MRP.trainingCenter.courseRooms
     function MRP.TargetRoom:seekTrainee()
         for k, v in pairs(MRP.waitingTrainees) do
@@ -18,13 +21,6 @@ if SERVER then
             end
         end
     end
-    function MRP.TargetRoom:startCountDown()
-        net.Start("trainingCenter::targetRoom::countDown")
-        net.Send(self.trainee)
-        timer.Create("trainingCenter::targetRoom::timer", self.timeLimit, 1, function ()
-            self:timeOut()
-        end)
-    end
     function MRP.TargetRoom:acceptTrainee(trainee)
         table.RemoveByValue(MRP.waitingTrainees, trainee)
         timer.Simple(self.timeBeforeTP, function ()
@@ -33,7 +29,9 @@ if SERVER then
                 trainee:SetEyeAngles(self.spawnAng)
                 self.trainee = trainee
                 trainee:Give("weapon_smg1")
-                self:startCountDown()
+                net.Start("trainingCenter::countDown")
+                net.Send(self.trainee)
+                self:setTimeLimit()
             end
         end)
         local countDown = self.timeBeforeTP
@@ -45,9 +43,6 @@ if SERVER then
     function MRP.TargetRoom:traineeLeft()
         self.trainee:StripWeapons()
         self.trainee:StripAmmo()
-        net.Start("trainingCenter::targetRoom::resetTime")
-        net.Send(self.trainee)
-        timer.Remove("trainingCenter::targetRoom::timer")
         -- close the doors
         timer.Simple(3, function ()
             self.trainee = nil
@@ -62,16 +57,6 @@ if SERVER then
         setmetatable(v, {__index = MRP.TargetRoom})
     end
 else
-    local targetRoomTime = MRP.TargetRoom.timeLimit
-    net.Receive("trainingCenter::targetRoom::countDown", function()
-        timer.Create("MRP::trainingCenter::targetRoom::countDown", 1, MRP.TargetRoom.timeLimit, function ()
-            targetRoomTime = targetRoomTime - 1
-        end)
-    end)
-    net.Receive("trainingCenter::targetRoom::resetTime", function()
-        targetRoomTime = MRP.TargetRoom.timeLimit
-        timer.Remove("MRP::trainingCenter::targetRoom::countDown")
-    end)
     hook.Add("PostDrawOpaqueRenderables", "example", function()
         local trace = LocalPlayer():GetEyeTrace()
         local angle = trace.HitNormal:Angle()
@@ -89,7 +74,7 @@ else
             surface.SetTextColor( 0, 255, 0, 255 )
             surface.SetTextPos( 0, -4 )
             surface.SetFont( "Trebuchet24" )
-            surface.DrawText(string.FormattedTime( targetRoomTime, "%2i:%02i" ))
+            surface.DrawText(string.FormattedTime( MRP.trainingCenter.remainingTime, "%2i:%02i" ))
         cam.End3D2D()
     end)
 end

@@ -3,11 +3,12 @@ MRP.GrenadeRoom = {
     timeLimit = 20
 }
 if SERVER then
-    util.AddNetworkString("trainingCenter::grenadeRoom::countDown")
-    util.AddNetworkString("trainingCenter::grenadeRoom::resetTime")
-    util.AddNetworkString("trainingcenter::trainingIsOver")
-
     setmetatable(MRP.GrenadeRoom, {__index = MRP.Room})
+
+    MRP.GrenadeRoom.netName = 'grenadeRoom'
+    util.AddNetworkString("trainingcenter::trainingIsOver")
+    util.AddNetworkString("trainingCenter::grenadeRoom::countDown")
+
     MRP.GrenadeRoom.nextRooms = MRP.trainingCenter.grenadeRooms
     function MRP.GrenadeRoom:acceptTrainee(trainee)
         MRP.Room.acceptTrainee(self, trainee)
@@ -23,19 +24,22 @@ if SERVER then
         self.trainee:SetEyeAngles(MRP.trainingCenter.spawnAng)
         self.trainee = nil
     end
+    function MRP.GrenadeRoom:setTimeLimit()
+        MRP.Room.setTimeLimit(self)
+        net.Start("trainingCenter::grenadeRoom::countDown")
+        net.Send(self.trainee)
+    end
     for _, v in pairs(MRP.trainingCenter.grenadeRooms) do
         setmetatable(v, {__index = MRP.GrenadeRoom})
     end
 else
-    net.Receive("trainingCenter::grenadeRoom::countDown", function ()
-        local timeLeft = MRP.GrenadeRoom.timeLimit
-        timer.Create("trainingCenter::grenadeRoom::timer", 1, MRP.GrenadeRoom.timeLimit, function ()
-            timeLeft = timeLeft - 1
-            chat.AddText(Color(255, 255, 255), string.FormattedTime( timeLeft, "%2i:%02i" ))
+    net.Receive("trainingCenter::grenadeRoom::countDown", function()
+        hook.Add("HUDPaint", "MRP::trainingCenter::grenadeRoom::countDown", function ()
+            draw.SimpleText(string.FormattedTime( MRP.trainingCenter.remainingTime, "%2i:%02i" ), "Trebuchet24", ScrW() / 2, ScrH() / 2, Color(255, 255, 255), TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
         end)
-    end)
-    net.Receive("trainingCenter::grenadeRoom::resetTime", function ()
-        timer.Remove("trainingCenter::grenadeRoom::timer")
+        timer.Simple(MRP.GrenadeRoom.timeLimit, function ()
+            hook.Remove("HUDPaint", "MRP::trainingCenter::grenadeRoom::countDown")
+        end)
     end)
     net.Receive("trainingCenter::trainingIsOver", function ()
         timer.Remove("trainingCenter::grenadeRoom::timer")
