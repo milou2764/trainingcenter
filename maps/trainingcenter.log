@@ -23989,3 +23989,2969 @@ Level flags = 0
 Total triangle count: 5803
 Writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
 7 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_05*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day02_05 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day02_05 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (152456 bytes)
+WARNING! model "models/props_foliage/mall_pot_large01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/mall_big_plant01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/mall_small_palm01_medium.mdl" has mismatching model version (49, expected 48)! Expect problems.
+Error! prop_static using model "models/props/cs_office/file_cabinet3.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props/cs_office/file_cabinet3.mdl"!
+WARNING! model "models/props_office/tv_002.mdl" has mismatching model version (49, expected 48)! Expect problems.
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 834 texinfos to 406
+Reduced 46 texdatas to 41 (1072 bytes to 933)
+Writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+3 seconds elapsed
+
+
+
+12 threads
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.prt
+ 463 portalclusters
+1141 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 93 visible clusters (0.24%)
+Total clusters visible: 39028
+Average clusters visible: 84
+Building PAS...
+Average clusters audible: 157
+visdatasize:34208  compressed from 59264
+writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+PREP OK
+Warning! Invalid model version "models/props_foliage/mall_pot_large01.mdl"
+Warning! Invalid model version "models/props_foliage/mall_big_plant01.mdl"
+Warning! Invalid model version "models/props_foliage/mall_small_palm01_medium.mdl"
+Warning! Invalid model version "models/props_office/tv_002.mdl"
+2146 faces
+651543 square feet [93822256.00 square inches]
+2 Displacements
+2784 Square Feet [401003.59 Square Inches]
+2146 patches before subdivision
+43172 patches after subdivision
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+104 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1869968, max 276
+transfer lists:  14.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(252157, 263366, 185808)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(62407, 69430, 38445)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(18498, 20832, 9373)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(6339, 6716, 2531)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2486, 2369, 772)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1069, 901, 262)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(488, 367, 97)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(230, 158, 38)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(111, 70, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(55, 32, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(27, 15, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(13, 7, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(7, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0125 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/4096          816/196608   ( 0.4%) 
+brushes                373/16384        4476/196608   ( 2.3%) 
+brushsides            2684/163840      21472/1310720  ( 1.6%) 
+planes                2152/65536       43040/1310720  ( 3.3%) 
+vertexes              3457/65536       41484/786432   ( 5.3%) 
+nodes                 1167/65536       37344/2097152  ( 1.8%) 
+texinfos               406/12288       29232/884736   ( 3.3%) 
+texdata                 41/2048         1312/65536    ( 2.0%) 
+dispinfos                2/0             352/0        ( 0.0%) 
+disp_verts             162/0            3240/0        ( 0.0%) 
+disp_tris              256/0             512/0        ( 0.0%) 
+disp_lmsamples        5984/0            5984/0        ( 0.0%) 
+faces                 2146/65536      120176/3670016  ( 3.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1125/65536       63000/3670016  ( 1.7%) 
+leaves                1185/65536       37920/2097152  ( 1.8%) 
+leaffaces             2569/65536        5138/131072   ( 3.9%) 
+leafbrushes            912/65536        1824/131072   ( 1.4%) 
+areas                    6/1024           48/8192     ( 0.6%) 
+surfedges            14811/512000      59244/2048000  ( 2.9%) 
+edges                 8551/256000      34204/1024000  ( 3.3%) 
+LDR worldlights        104/8192         9152/720896   ( 1.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            170/32768        1700/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2553/65536        5106/131072   ( 3.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 1/1024          352/360448   ( 0.1%) 
+LDR lightdata         [variable]     2032676/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       34208/16777216 ( 0.2%) 
+entdata               [variable]       93439/393216   (23.8%) 
+LDR ambient table     1185/65536        4740/262144   ( 1.8%) 
+HDR ambient table     1185/65536        4740/262144   ( 1.8%) 
+LDR leaf ambient      4214/65536      117992/1835008  ( 6.4%) 
+HDR leaf ambient      1185/65536       33180/1835008  ( 1.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/44688    ( 0.0%) 
+pakfile               [variable]        8957/0        ( 0.0%) 
+physics               [variable]      152456/4194304  ( 3.6%) 
+physics terrain       [variable]         864/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 5821
+Writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+7 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_05*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day02_05 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day02_05 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (152456 bytes)
+WARNING! model "models/props_foliage/mall_pot_large01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/mall_big_plant01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/mall_small_palm01_medium.mdl" has mismatching model version (49, expected 48)! Expect problems.
+Error! prop_static using model "models/props/cs_office/file_cabinet3.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props/cs_office/file_cabinet3.mdl"!
+WARNING! model "models/props_office/tv_002.mdl" has mismatching model version (49, expected 48)! Expect problems.
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 834 texinfos to 406
+Reduced 46 texdatas to 41 (1072 bytes to 933)
+Writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+3 seconds elapsed
+
+
+
+12 threads
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.prt
+ 463 portalclusters
+1141 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 94 visible clusters (0.24%)
+Total clusters visible: 39029
+Average clusters visible: 84
+Building PAS...
+Average clusters audible: 157
+visdatasize:34208  compressed from 59264
+writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+PREP OK
+Warning! Invalid model version "models/props_foliage/mall_pot_large01.mdl"
+Warning! Invalid model version "models/props_foliage/mall_big_plant01.mdl"
+Warning! Invalid model version "models/props_foliage/mall_small_palm01_medium.mdl"
+Warning! Invalid model version "models/props_office/tv_002.mdl"
+2146 faces
+651543 square feet [93822256.00 square inches]
+2 Displacements
+2784 Square Feet [401003.59 Square Inches]
+2146 patches before subdivision
+43172 patches after subdivision
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+104 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1869968, max 276
+transfer lists:  14.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(158927, 159765, 116542)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(42520, 42703, 24194)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(14154, 13697, 6344)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(5396, 4831, 1892)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2280, 1866, 637)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1025, 768, 233)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(478, 332, 91)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(228, 148, 37)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(111, 68, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(54, 32, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(27, 15, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(13, 7, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(7, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0129 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/4096          816/196608   ( 0.4%) 
+brushes                373/16384        4476/196608   ( 2.3%) 
+brushsides            2684/163840      21472/1310720  ( 1.6%) 
+planes                2152/65536       43040/1310720  ( 3.3%) 
+vertexes              3457/65536       41484/786432   ( 5.3%) 
+nodes                 1167/65536       37344/2097152  ( 1.8%) 
+texinfos               406/12288       29232/884736   ( 3.3%) 
+texdata                 41/2048         1312/65536    ( 2.0%) 
+dispinfos                2/0             352/0        ( 0.0%) 
+disp_verts             162/0            3240/0        ( 0.0%) 
+disp_tris              256/0             512/0        ( 0.0%) 
+disp_lmsamples        5984/0            5984/0        ( 0.0%) 
+faces                 2146/65536      120176/3670016  ( 3.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1125/65536       63000/3670016  ( 1.7%) 
+leaves                1185/65536       37920/2097152  ( 1.8%) 
+leaffaces             2569/65536        5138/131072   ( 3.9%) 
+leafbrushes            912/65536        1824/131072   ( 1.4%) 
+areas                    6/1024           48/8192     ( 0.6%) 
+surfedges            14811/512000      59244/2048000  ( 2.9%) 
+edges                 8551/256000      34204/1024000  ( 3.3%) 
+LDR worldlights        104/8192         9152/720896   ( 1.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            170/32768        1700/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2553/65536        5106/131072   ( 3.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 1/1024          352/360448   ( 0.1%) 
+LDR lightdata         [variable]     2032676/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       34208/16777216 ( 0.2%) 
+entdata               [variable]       93438/393216   (23.8%) 
+LDR ambient table     1185/65536        4740/262144   ( 1.8%) 
+HDR ambient table     1185/65536        4740/262144   ( 1.8%) 
+LDR leaf ambient      4260/65536      119280/1835008  ( 6.5%) 
+HDR leaf ambient      1185/65536       33180/1835008  ( 1.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/44688    ( 0.0%) 
+pakfile               [variable]        8957/0        ( 0.0%) 
+physics               [variable]      152456/4194304  ( 3.6%) 
+physics terrain       [variable]         864/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 5821
+Writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+7 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_05*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day02_05 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day02_05 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (152456 bytes)
+WARNING! model "models/props_foliage/mall_pot_large01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/mall_big_plant01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/mall_small_palm01_medium.mdl" has mismatching model version (49, expected 48)! Expect problems.
+Error! prop_static using model "models/props/cs_office/file_cabinet3.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props/cs_office/file_cabinet3.mdl"!
+WARNING! model "models/props_office/tv_002.mdl" has mismatching model version (49, expected 48)! Expect problems.
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 834 texinfos to 406
+Reduced 46 texdatas to 41 (1072 bytes to 933)
+Writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+3 seconds elapsed
+
+
+
+12 threads
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.prt
+ 463 portalclusters
+1141 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 93 visible clusters (0.24%)
+Total clusters visible: 39028
+Average clusters visible: 84
+Building PAS...
+Average clusters audible: 157
+visdatasize:34208  compressed from 59264
+writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+PREP OK
+Warning! Invalid model version "models/props_foliage/mall_pot_large01.mdl"
+Warning! Invalid model version "models/props_foliage/mall_big_plant01.mdl"
+Warning! Invalid model version "models/props_foliage/mall_small_palm01_medium.mdl"
+Warning! Invalid model version "models/props_office/tv_002.mdl"
+2146 faces
+651543 square feet [93822256.00 square inches]
+2 Displacements
+2784 Square Feet [401003.59 Square Inches]
+2146 patches before subdivision
+43172 patches after subdivision
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+104 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1869968, max 276
+transfer lists:  14.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(129757, 127402, 94863)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(36296, 34346, 19732)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(12793, 11464, 5394)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(5100, 4241, 1692)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2216, 1709, 594)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1011, 726, 224)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(475, 321, 89)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(228, 145, 36)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(111, 67, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(54, 31, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(27, 15, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(13, 7, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(7, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0126 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/4096          816/196608   ( 0.4%) 
+brushes                373/16384        4476/196608   ( 2.3%) 
+brushsides            2684/163840      21472/1310720  ( 1.6%) 
+planes                2152/65536       43040/1310720  ( 3.3%) 
+vertexes              3457/65536       41484/786432   ( 5.3%) 
+nodes                 1167/65536       37344/2097152  ( 1.8%) 
+texinfos               406/12288       29232/884736   ( 3.3%) 
+texdata                 41/2048         1312/65536    ( 2.0%) 
+dispinfos                2/0             352/0        ( 0.0%) 
+disp_verts             162/0            3240/0        ( 0.0%) 
+disp_tris              256/0             512/0        ( 0.0%) 
+disp_lmsamples        5984/0            5984/0        ( 0.0%) 
+faces                 2146/65536      120176/3670016  ( 3.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1125/65536       63000/3670016  ( 1.7%) 
+leaves                1185/65536       37920/2097152  ( 1.8%) 
+leaffaces             2569/65536        5138/131072   ( 3.9%) 
+leafbrushes            912/65536        1824/131072   ( 1.4%) 
+areas                    6/1024           48/8192     ( 0.6%) 
+surfedges            14811/512000      59244/2048000  ( 2.9%) 
+edges                 8551/256000      34204/1024000  ( 3.3%) 
+LDR worldlights        104/8192         9152/720896   ( 1.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            170/32768        1700/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2553/65536        5106/131072   ( 3.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 1/1024          352/360448   ( 0.1%) 
+LDR lightdata         [variable]     2032676/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       34208/16777216 ( 0.2%) 
+entdata               [variable]       93331/393216   (23.7%) 
+LDR ambient table     1185/65536        4740/262144   ( 1.8%) 
+HDR ambient table     1185/65536        4740/262144   ( 1.8%) 
+LDR leaf ambient      4253/65536      119084/1835008  ( 6.5%) 
+HDR leaf ambient      1185/65536       33180/1835008  ( 1.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/44688    ( 0.0%) 
+pakfile               [variable]        8957/0        ( 0.0%) 
+physics               [variable]      152456/4194304  ( 3.6%) 
+physics terrain       [variable]         864/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 5821
+Writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+7 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_05*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day02_05 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day02_05 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (152456 bytes)
+WARNING! model "models/props_foliage/mall_pot_large01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/mall_big_plant01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/mall_small_palm01_medium.mdl" has mismatching model version (49, expected 48)! Expect problems.
+Error! prop_static using model "models/props/cs_office/file_cabinet3.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props/cs_office/file_cabinet3.mdl"!
+WARNING! model "models/props_office/tv_002.mdl" has mismatching model version (49, expected 48)! Expect problems.
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 834 texinfos to 406
+Reduced 46 texdatas to 41 (1072 bytes to 933)
+Writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+3 seconds elapsed
+
+
+
+12 threads
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.prt
+ 463 portalclusters
+1141 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 93 visible clusters (0.24%)
+Total clusters visible: 39028
+Average clusters visible: 84
+Building PAS...
+Average clusters audible: 157
+visdatasize:34208  compressed from 59264
+writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+PREP OK
+Warning! Invalid model version "models/props_foliage/mall_pot_large01.mdl"
+Warning! Invalid model version "models/props_foliage/mall_big_plant01.mdl"
+Warning! Invalid model version "models/props_foliage/mall_small_palm01_medium.mdl"
+Warning! Invalid model version "models/props_office/tv_002.mdl"
+2146 faces
+651543 square feet [93822256.00 square inches]
+2 Displacements
+2784 Square Feet [401003.59 Square Inches]
+2146 patches before subdivision
+43172 patches after subdivision
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+104 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1869968, max 276
+transfer lists:  14.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(132755, 130727, 97091)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(36936, 35205, 20190)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(12933, 11694, 5492)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(5131, 4302, 1713)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2222, 1725, 598)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1012, 730, 225)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(475, 322, 89)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(228, 146, 36)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(111, 67, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(54, 31, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(27, 15, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(13, 7, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(7, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0132 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/4096          816/196608   ( 0.4%) 
+brushes                373/16384        4476/196608   ( 2.3%) 
+brushsides            2684/163840      21472/1310720  ( 1.6%) 
+planes                2152/65536       43040/1310720  ( 3.3%) 
+vertexes              3457/65536       41484/786432   ( 5.3%) 
+nodes                 1167/65536       37344/2097152  ( 1.8%) 
+texinfos               406/12288       29232/884736   ( 3.3%) 
+texdata                 41/2048         1312/65536    ( 2.0%) 
+dispinfos                2/0             352/0        ( 0.0%) 
+disp_verts             162/0            3240/0        ( 0.0%) 
+disp_tris              256/0             512/0        ( 0.0%) 
+disp_lmsamples        5984/0            5984/0        ( 0.0%) 
+faces                 2146/65536      120176/3670016  ( 3.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1125/65536       63000/3670016  ( 1.7%) 
+leaves                1185/65536       37920/2097152  ( 1.8%) 
+leaffaces             2569/65536        5138/131072   ( 3.9%) 
+leafbrushes            912/65536        1824/131072   ( 1.4%) 
+areas                    6/1024           48/8192     ( 0.6%) 
+surfedges            14811/512000      59244/2048000  ( 2.9%) 
+edges                 8551/256000      34204/1024000  ( 3.3%) 
+LDR worldlights        104/8192         9152/720896   ( 1.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            170/32768        1700/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2553/65536        5106/131072   ( 3.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 1/1024          352/360448   ( 0.1%) 
+LDR lightdata         [variable]     2032676/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       34208/16777216 ( 0.2%) 
+entdata               [variable]       93333/393216   (23.7%) 
+LDR ambient table     1185/65536        4740/262144   ( 1.8%) 
+HDR ambient table     1185/65536        4740/262144   ( 1.8%) 
+LDR leaf ambient      4263/65536      119364/1835008  ( 6.5%) 
+HDR leaf ambient      1185/65536       33180/1835008  ( 1.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/44688    ( 0.0%) 
+pakfile               [variable]        8957/0        ( 0.0%) 
+physics               [variable]      152456/4194304  ( 3.6%) 
+physics terrain       [variable]         864/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 5821
+Writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+7 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_05*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day02_05 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day02_05 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (152456 bytes)
+WARNING! model "models/props_foliage/mall_pot_large01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/mall_big_plant01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/mall_small_palm01_medium.mdl" has mismatching model version (49, expected 48)! Expect problems.
+Error! prop_static using model "models/props/cs_office/file_cabinet3.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props/cs_office/file_cabinet3.mdl"!
+WARNING! model "models/props_office/tv_002.mdl" has mismatching model version (49, expected 48)! Expect problems.
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 834 texinfos to 406
+Reduced 46 texdatas to 41 (1072 bytes to 933)
+Writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+3 seconds elapsed
+
+
+
+12 threads
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.prt
+ 463 portalclusters
+1141 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 93 visible clusters (0.24%)
+Total clusters visible: 39028
+Average clusters visible: 84
+Building PAS...
+Average clusters audible: 157
+visdatasize:34208  compressed from 59264
+writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+PREP OK
+Warning! Invalid model version "models/props_foliage/mall_pot_large01.mdl"
+Warning! Invalid model version "models/props_foliage/mall_big_plant01.mdl"
+Warning! Invalid model version "models/props_foliage/mall_small_palm01_medium.mdl"
+Warning! Invalid model version "models/props_office/tv_002.mdl"
+2146 faces
+651543 square feet [93822256.00 square inches]
+2 Displacements
+2784 Square Feet [401003.59 Square Inches]
+2146 patches before subdivision
+43172 patches after subdivision
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+104 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1869968, max 276
+transfer lists:  14.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(131711, 131126, 97409)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(36713, 35307, 20255)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(12884, 11721, 5506)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(5120, 4309, 1716)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2220, 1727, 599)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1012, 731, 225)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(475, 322, 89)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(228, 146, 36)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(111, 67, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(54, 31, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(27, 15, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(13, 7, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(7, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0127 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/4096          816/196608   ( 0.4%) 
+brushes                373/16384        4476/196608   ( 2.3%) 
+brushsides            2684/163840      21472/1310720  ( 1.6%) 
+planes                2152/65536       43040/1310720  ( 3.3%) 
+vertexes              3457/65536       41484/786432   ( 5.3%) 
+nodes                 1167/65536       37344/2097152  ( 1.8%) 
+texinfos               406/12288       29232/884736   ( 3.3%) 
+texdata                 41/2048         1312/65536    ( 2.0%) 
+dispinfos                2/0             352/0        ( 0.0%) 
+disp_verts             162/0            3240/0        ( 0.0%) 
+disp_tris              256/0             512/0        ( 0.0%) 
+disp_lmsamples        5984/0            5984/0        ( 0.0%) 
+faces                 2146/65536      120176/3670016  ( 3.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1125/65536       63000/3670016  ( 1.7%) 
+leaves                1185/65536       37920/2097152  ( 1.8%) 
+leaffaces             2569/65536        5138/131072   ( 3.9%) 
+leafbrushes            912/65536        1824/131072   ( 1.4%) 
+areas                    6/1024           48/8192     ( 0.6%) 
+surfedges            14811/512000      59244/2048000  ( 2.9%) 
+edges                 8551/256000      34204/1024000  ( 3.3%) 
+LDR worldlights        104/8192         9152/720896   ( 1.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            170/32768        1700/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2553/65536        5106/131072   ( 3.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 1/1024          352/360448   ( 0.1%) 
+LDR lightdata         [variable]     2032676/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       34208/16777216 ( 0.2%) 
+entdata               [variable]       93333/393216   (23.7%) 
+LDR ambient table     1185/65536        4740/262144   ( 1.8%) 
+HDR ambient table     1185/65536        4740/262144   ( 1.8%) 
+LDR leaf ambient      4262/65536      119336/1835008  ( 6.5%) 
+HDR leaf ambient      1185/65536       33180/1835008  ( 1.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/44688    ( 0.0%) 
+pakfile               [variable]        8957/0        ( 0.0%) 
+physics               [variable]      152456/4194304  ( 3.6%) 
+physics terrain       [variable]         864/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 5821
+Writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+7 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_05*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day02_05 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day02_05 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (152456 bytes)
+WARNING! model "models/props_foliage/mall_pot_large01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/mall_big_plant01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/mall_small_palm01_medium.mdl" has mismatching model version (49, expected 48)! Expect problems.
+Error! prop_static using model "models/props/cs_office/file_cabinet3.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props/cs_office/file_cabinet3.mdl"!
+WARNING! model "models/props_office/tv_002.mdl" has mismatching model version (49, expected 48)! Expect problems.
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 834 texinfos to 406
+Reduced 46 texdatas to 41 (1072 bytes to 933)
+Writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+3 seconds elapsed
+
+
+
+12 threads
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.prt
+ 463 portalclusters
+1141 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 93 visible clusters (0.24%)
+Total clusters visible: 39028
+Average clusters visible: 84
+Building PAS...
+Average clusters audible: 157
+visdatasize:34208  compressed from 59264
+writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+PREP OK
+Warning! Invalid model version "models/props_foliage/mall_pot_large01.mdl"
+Warning! Invalid model version "models/props_foliage/mall_big_plant01.mdl"
+Warning! Invalid model version "models/props_foliage/mall_small_palm01_medium.mdl"
+Warning! Invalid model version "models/props_office/tv_002.mdl"
+2146 faces
+651543 square feet [93822256.00 square inches]
+2 Displacements
+2784 Square Feet [401003.59 Square Inches]
+2146 patches before subdivision
+43172 patches after subdivision
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+104 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1869968, max 276
+transfer lists:  14.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(131425, 129943, 96841)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(36652, 35001, 20138)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(12871, 11639, 5481)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(5117, 4287, 1710)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2219, 1721, 598)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1011, 729, 225)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(475, 322, 89)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(228, 146, 36)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(111, 67, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(54, 31, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(27, 15, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(13, 7, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(7, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0125 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/4096          816/196608   ( 0.4%) 
+brushes                373/16384        4476/196608   ( 2.3%) 
+brushsides            2684/163840      21472/1310720  ( 1.6%) 
+planes                2152/65536       43040/1310720  ( 3.3%) 
+vertexes              3457/65536       41484/786432   ( 5.3%) 
+nodes                 1167/65536       37344/2097152  ( 1.8%) 
+texinfos               406/12288       29232/884736   ( 3.3%) 
+texdata                 41/2048         1312/65536    ( 2.0%) 
+dispinfos                2/0             352/0        ( 0.0%) 
+disp_verts             162/0            3240/0        ( 0.0%) 
+disp_tris              256/0             512/0        ( 0.0%) 
+disp_lmsamples        5984/0            5984/0        ( 0.0%) 
+faces                 2146/65536      120176/3670016  ( 3.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1125/65536       63000/3670016  ( 1.7%) 
+leaves                1185/65536       37920/2097152  ( 1.8%) 
+leaffaces             2569/65536        5138/131072   ( 3.9%) 
+leafbrushes            912/65536        1824/131072   ( 1.4%) 
+areas                    6/1024           48/8192     ( 0.6%) 
+surfedges            14811/512000      59244/2048000  ( 2.9%) 
+edges                 8551/256000      34204/1024000  ( 3.3%) 
+LDR worldlights        104/8192         9152/720896   ( 1.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            170/32768        1700/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2553/65536        5106/131072   ( 3.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 1/1024          352/360448   ( 0.1%) 
+LDR lightdata         [variable]     2032676/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       34208/16777216 ( 0.2%) 
+entdata               [variable]       93333/393216   (23.7%) 
+LDR ambient table     1185/65536        4740/262144   ( 1.8%) 
+HDR ambient table     1185/65536        4740/262144   ( 1.8%) 
+LDR leaf ambient      4261/65536      119308/1835008  ( 6.5%) 
+HDR leaf ambient      1185/65536       33180/1835008  ( 1.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/44688    ( 0.0%) 
+pakfile               [variable]        8957/0        ( 0.0%) 
+physics               [variable]      152456/4194304  ( 3.6%) 
+physics terrain       [variable]         864/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 5821
+Writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+7 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_05*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day02_05 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day02_05 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (152456 bytes)
+WARNING! model "models/props_foliage/mall_pot_large01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/mall_big_plant01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/mall_small_palm01_medium.mdl" has mismatching model version (49, expected 48)! Expect problems.
+Error! prop_static using model "models/props/cs_office/file_cabinet3.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props/cs_office/file_cabinet3.mdl"!
+WARNING! model "models/props_office/tv_002.mdl" has mismatching model version (49, expected 48)! Expect problems.
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 838 texinfos to 406
+Reduced 46 texdatas to 41 (1072 bytes to 933)
+Writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+3 seconds elapsed
+
+
+
+12 threads
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.prt
+ 463 portalclusters
+1142 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 88 visible clusters (0.23%)
+Total clusters visible: 39029
+Average clusters visible: 84
+Building PAS...
+Average clusters audible: 157
+visdatasize:34205  compressed from 59264
+writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+PREP OK
+Warning! Invalid model version "models/props_foliage/mall_pot_large01.mdl"
+Warning! Invalid model version "models/props_foliage/mall_big_plant01.mdl"
+Warning! Invalid model version "models/props_foliage/mall_small_palm01_medium.mdl"
+Warning! Invalid model version "models/props_office/tv_002.mdl"
+2146 faces
+651553 square feet [93823712.00 square inches]
+2 Displacements
+2784 Square Feet [401003.59 Square Inches]
+2146 patches before subdivision
+43172 patches after subdivision
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+104 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1869942, max 276
+transfer lists:  14.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(131513, 130050, 96946)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(36665, 35015, 20152)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(12873, 11640, 5482)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(5117, 4287, 1710)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2219, 1721, 598)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1011, 729, 225)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(475, 321, 89)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(228, 145, 36)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(111, 67, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(54, 31, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(27, 15, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(13, 7, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(7, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0125 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/4096          816/196608   ( 0.4%) 
+brushes                373/16384        4476/196608   ( 2.3%) 
+brushsides            2684/163840      21472/1310720  ( 1.6%) 
+planes                2162/65536       43240/1310720  ( 3.3%) 
+vertexes              3457/65536       41484/786432   ( 5.3%) 
+nodes                 1167/65536       37344/2097152  ( 1.8%) 
+texinfos               406/12288       29232/884736   ( 3.3%) 
+texdata                 41/2048         1312/65536    ( 2.0%) 
+dispinfos                2/0             352/0        ( 0.0%) 
+disp_verts             162/0            3240/0        ( 0.0%) 
+disp_tris              256/0             512/0        ( 0.0%) 
+disp_lmsamples        5984/0            5984/0        ( 0.0%) 
+faces                 2146/65536      120176/3670016  ( 3.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1125/65536       63000/3670016  ( 1.7%) 
+leaves                1185/65536       37920/2097152  ( 1.8%) 
+leaffaces             2569/65536        5138/131072   ( 3.9%) 
+leafbrushes            912/65536        1824/131072   ( 1.4%) 
+areas                    6/1024           48/8192     ( 0.6%) 
+surfedges            14811/512000      59244/2048000  ( 2.9%) 
+edges                 8551/256000      34204/1024000  ( 3.3%) 
+LDR worldlights        104/8192         9152/720896   ( 1.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            170/32768        1700/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2553/65536        5106/131072   ( 3.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 1/1024          352/360448   ( 0.1%) 
+LDR lightdata         [variable]     2032732/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       34205/16777216 ( 0.2%) 
+entdata               [variable]       93333/393216   (23.7%) 
+LDR ambient table     1185/65536        4740/262144   ( 1.8%) 
+HDR ambient table     1185/65536        4740/262144   ( 1.8%) 
+LDR leaf ambient      4261/65536      119308/1835008  ( 6.5%) 
+HDR leaf ambient      1185/65536       33180/1835008  ( 1.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/44688    ( 0.0%) 
+pakfile               [variable]        8957/0        ( 0.0%) 
+physics               [variable]      152456/4194304  ( 3.6%) 
+physics terrain       [variable]         864/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 5821
+Writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+7 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_05*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day02_05 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day02_05 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (152456 bytes)
+WARNING! model "models/props_foliage/mall_pot_large01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/mall_big_plant01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/mall_small_palm01_medium.mdl" has mismatching model version (49, expected 48)! Expect problems.
+Error! prop_static using model "models/props/cs_office/file_cabinet3.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props/cs_office/file_cabinet3.mdl"!
+WARNING! model "models/props_office/tv_002.mdl" has mismatching model version (49, expected 48)! Expect problems.
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 834 texinfos to 406
+Reduced 46 texdatas to 41 (1072 bytes to 933)
+Writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+3 seconds elapsed
+
+
+
+12 threads
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.prt
+ 463 portalclusters
+1141 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 93 visible clusters (0.24%)
+Total clusters visible: 39028
+Average clusters visible: 84
+Building PAS...
+Average clusters audible: 157
+visdatasize:34208  compressed from 59264
+writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+PREP OK
+Warning! Invalid model version "models/props_foliage/mall_pot_large01.mdl"
+Warning! Invalid model version "models/props_foliage/mall_big_plant01.mdl"
+Warning! Invalid model version "models/props_foliage/mall_small_palm01_medium.mdl"
+Warning! Invalid model version "models/props_office/tv_002.mdl"
+2146 faces
+651543 square feet [93822256.00 square inches]
+2 Displacements
+2784 Square Feet [401003.59 Square Inches]
+2146 patches before subdivision
+43172 patches after subdivision
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+104 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1869968, max 276
+transfer lists:  14.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(131425, 129943, 96842)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(36652, 35001, 20138)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(12871, 11639, 5481)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(5117, 4287, 1710)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2219, 1721, 598)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1011, 729, 225)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(475, 322, 89)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(228, 146, 36)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(111, 67, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(54, 31, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(27, 15, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(13, 7, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(7, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0124 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/4096          816/196608   ( 0.4%) 
+brushes                373/16384        4476/196608   ( 2.3%) 
+brushsides            2684/163840      21472/1310720  ( 1.6%) 
+planes                2152/65536       43040/1310720  ( 3.3%) 
+vertexes              3457/65536       41484/786432   ( 5.3%) 
+nodes                 1167/65536       37344/2097152  ( 1.8%) 
+texinfos               406/12288       29232/884736   ( 3.3%) 
+texdata                 41/2048         1312/65536    ( 2.0%) 
+dispinfos                2/0             352/0        ( 0.0%) 
+disp_verts             162/0            3240/0        ( 0.0%) 
+disp_tris              256/0             512/0        ( 0.0%) 
+disp_lmsamples        5984/0            5984/0        ( 0.0%) 
+faces                 2146/65536      120176/3670016  ( 3.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1125/65536       63000/3670016  ( 1.7%) 
+leaves                1185/65536       37920/2097152  ( 1.8%) 
+leaffaces             2569/65536        5138/131072   ( 3.9%) 
+leafbrushes            912/65536        1824/131072   ( 1.4%) 
+areas                    6/1024           48/8192     ( 0.6%) 
+surfedges            14811/512000      59244/2048000  ( 2.9%) 
+edges                 8551/256000      34204/1024000  ( 3.3%) 
+LDR worldlights        104/8192         9152/720896   ( 1.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            170/32768        1700/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2553/65536        5106/131072   ( 3.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 1/1024          352/360448   ( 0.1%) 
+LDR lightdata         [variable]     2032676/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       34208/16777216 ( 0.2%) 
+entdata               [variable]       93333/393216   (23.7%) 
+LDR ambient table     1185/65536        4740/262144   ( 1.8%) 
+HDR ambient table     1185/65536        4740/262144   ( 1.8%) 
+LDR leaf ambient      4261/65536      119308/1835008  ( 6.5%) 
+HDR leaf ambient      1185/65536       33180/1835008  ( 1.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/44688    ( 0.0%) 
+pakfile               [variable]        8957/0        ( 0.0%) 
+physics               [variable]      152456/4194304  ( 3.6%) 
+physics terrain       [variable]         864/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 5821
+Writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+7 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_05*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day02_05 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day02_05 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (152456 bytes)
+WARNING! model "models/props_foliage/mall_pot_large01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/mall_big_plant01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/mall_small_palm01_medium.mdl" has mismatching model version (49, expected 48)! Expect problems.
+Error! prop_static using model "models/props/cs_office/file_cabinet3.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props/cs_office/file_cabinet3.mdl"!
+WARNING! model "models/props_office/tv_002.mdl" has mismatching model version (49, expected 48)! Expect problems.
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 838 texinfos to 406
+Reduced 46 texdatas to 41 (1072 bytes to 933)
+Writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+3 seconds elapsed
+
+
+
+12 threads
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.prt
+ 463 portalclusters
+1141 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 93 visible clusters (0.24%)
+Total clusters visible: 39028
+Average clusters visible: 84
+Building PAS...
+Average clusters audible: 157
+visdatasize:34208  compressed from 59264
+writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+PREP OK
+Warning! Invalid model version "models/props_foliage/mall_pot_large01.mdl"
+Warning! Invalid model version "models/props_foliage/mall_big_plant01.mdl"
+Warning! Invalid model version "models/props_foliage/mall_small_palm01_medium.mdl"
+Warning! Invalid model version "models/props_office/tv_002.mdl"
+2146 faces
+651546 square feet [93822752.00 square inches]
+2 Displacements
+2784 Square Feet [401003.59 Square Inches]
+2146 patches before subdivision
+43172 patches after subdivision
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+104 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1870059, max 276
+transfer lists:  14.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(131474, 130008, 96893)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(36664, 35018, 20149)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(12874, 11644, 5483)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(5118, 4289, 1711)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2219, 1722, 598)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1011, 729, 225)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(475, 322, 89)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(228, 146, 36)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(111, 67, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(54, 31, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(27, 15, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(13, 7, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(7, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0124 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/4096          816/196608   ( 0.4%) 
+brushes                373/16384        4476/196608   ( 2.3%) 
+brushsides            2684/163840      21472/1310720  ( 1.6%) 
+planes                2158/65536       43160/1310720  ( 3.3%) 
+vertexes              3457/65536       41484/786432   ( 5.3%) 
+nodes                 1167/65536       37344/2097152  ( 1.8%) 
+texinfos               406/12288       29232/884736   ( 3.3%) 
+texdata                 41/2048         1312/65536    ( 2.0%) 
+dispinfos                2/0             352/0        ( 0.0%) 
+disp_verts             162/0            3240/0        ( 0.0%) 
+disp_tris              256/0             512/0        ( 0.0%) 
+disp_lmsamples        5984/0            5984/0        ( 0.0%) 
+faces                 2146/65536      120176/3670016  ( 3.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1125/65536       63000/3670016  ( 1.7%) 
+leaves                1185/65536       37920/2097152  ( 1.8%) 
+leaffaces             2569/65536        5138/131072   ( 3.9%) 
+leafbrushes            912/65536        1824/131072   ( 1.4%) 
+areas                    6/1024           48/8192     ( 0.6%) 
+surfedges            14811/512000      59244/2048000  ( 2.9%) 
+edges                 8551/256000      34204/1024000  ( 3.3%) 
+LDR worldlights        104/8192         9152/720896   ( 1.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            170/32768        1700/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2553/65536        5106/131072   ( 3.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 1/1024          352/360448   ( 0.1%) 
+LDR lightdata         [variable]     2032324/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       34208/16777216 ( 0.2%) 
+entdata               [variable]       93333/393216   (23.7%) 
+LDR ambient table     1185/65536        4740/262144   ( 1.8%) 
+HDR ambient table     1185/65536        4740/262144   ( 1.8%) 
+LDR leaf ambient      4261/65536      119308/1835008  ( 6.5%) 
+HDR leaf ambient      1185/65536       33180/1835008  ( 1.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/44688    ( 0.0%) 
+pakfile               [variable]        8957/0        ( 0.0%) 
+physics               [variable]      152456/4194304  ( 3.6%) 
+physics terrain       [variable]         864/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 5821
+Writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+7 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_05*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day02_05 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day02_05 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (153896 bytes)
+WARNING! model "models/props_foliage/mall_pot_large01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/mall_big_plant01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/mall_small_palm01_medium.mdl" has mismatching model version (49, expected 48)! Expect problems.
+Error! prop_static using model "models/props/cs_office/file_cabinet3.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props/cs_office/file_cabinet3.mdl"!
+WARNING! model "models/props_office/tv_002.mdl" has mismatching model version (49, expected 48)! Expect problems.
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 836 texinfos to 403
+Reduced 46 texdatas to 41 (1072 bytes to 933)
+Writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+3 seconds elapsed
+
+
+
+12 threads
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.prt
+ 469 portalclusters
+1149 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 118 visible clusters (0.30%)
+Total clusters visible: 39237
+Average clusters visible: 83
+Building PAS...
+Average clusters audible: 158
+visdatasize:35426  compressed from 60032
+writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+PREP OK
+Warning! Invalid model version "models/props_foliage/mall_pot_large01.mdl"
+Warning! Invalid model version "models/props_foliage/mall_big_plant01.mdl"
+Warning! Invalid model version "models/props_foliage/mall_small_palm01_medium.mdl"
+Warning! Invalid model version "models/props_office/tv_002.mdl"
+2154 faces
+651639 square feet [93836048.00 square inches]
+2 Displacements
+2784 Square Feet [401003.59 Square Inches]
+2154 patches before subdivision
+43052 patches after subdivision
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+105 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1857291, max 276
+transfer lists:  14.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(134744, 134508, 100321)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(37367, 36215, 20879)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(13018, 11965, 5642)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(5143, 4373, 1745)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2222, 1743, 605)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1011, 735, 227)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(474, 323, 89)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(227, 146, 36)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(111, 67, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(54, 31, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(27, 15, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(13, 7, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(7, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0124 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/4096          816/196608   ( 0.4%) 
+brushes                377/16384        4524/196608   ( 2.3%) 
+brushsides            2708/163840      21664/1310720  ( 1.7%) 
+planes                2156/65536       43120/1310720  ( 3.3%) 
+vertexes              3475/65536       41700/786432   ( 5.3%) 
+nodes                 1173/65536       37536/2097152  ( 1.8%) 
+texinfos               403/12288       29016/884736   ( 3.3%) 
+texdata                 41/2048         1312/65536    ( 2.0%) 
+dispinfos                2/0             352/0        ( 0.0%) 
+disp_verts             162/0            3240/0        ( 0.0%) 
+disp_tris              256/0             512/0        ( 0.0%) 
+disp_lmsamples        5984/0            5984/0        ( 0.0%) 
+faces                 2154/65536      120624/3670016  ( 3.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1132/65536       63392/3670016  ( 1.7%) 
+leaves                1191/65536       38112/2097152  ( 1.8%) 
+leaffaces             2587/65536        5174/131072   ( 3.9%) 
+leafbrushes            917/65536        1834/131072   ( 1.4%) 
+areas                    6/1024           48/8192     ( 0.6%) 
+surfedges            14869/512000      59476/2048000  ( 2.9%) 
+edges                 8589/256000      34356/1024000  ( 3.4%) 
+LDR worldlights        105/8192         9240/720896   ( 1.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            166/32768        1660/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2496/65536        4992/131072   ( 3.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 1/1024          352/360448   ( 0.1%) 
+LDR lightdata         [variable]     2033084/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       35426/16777216 ( 0.2%) 
+entdata               [variable]       93589/393216   (23.8%) 
+LDR ambient table     1191/65536        4764/262144   ( 1.8%) 
+HDR ambient table     1191/65536        4764/262144   ( 1.8%) 
+LDR leaf ambient      4263/65536      119364/1835008  ( 6.5%) 
+HDR leaf ambient      1191/65536       33348/1835008  ( 1.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/44710    ( 0.0%) 
+pakfile               [variable]        8957/0        ( 0.0%) 
+physics               [variable]      153896/4194304  ( 3.7%) 
+physics terrain       [variable]         864/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 5835
+Writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+7 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_05*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day02_05 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day02_05 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (156776 bytes)
+WARNING! model "models/props_foliage/mall_pot_large01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/mall_big_plant01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/mall_small_palm01_medium.mdl" has mismatching model version (49, expected 48)! Expect problems.
+Error! prop_static using model "models/props/cs_office/file_cabinet3.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props/cs_office/file_cabinet3.mdl"!
+WARNING! model "models/props_office/tv_002.mdl" has mismatching model version (49, expected 48)! Expect problems.
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 829 texinfos to 397
+Reduced 46 texdatas to 41 (1072 bytes to 933)
+Writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+3 seconds elapsed
+
+
+
+12 threads
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.prt
+ 468 portalclusters
+1121 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 158 visible clusters (0.42%)
+Total clusters visible: 37928
+Average clusters visible: 81
+Building PAS...
+Average clusters audible: 159
+visdatasize:35454  compressed from 59904
+writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+PREP OK
+Warning! Invalid model version "models/props_foliage/mall_pot_large01.mdl"
+Warning! Invalid model version "models/props_foliage/mall_big_plant01.mdl"
+Warning! Invalid model version "models/props_foliage/mall_small_palm01_medium.mdl"
+Warning! Invalid model version "models/props_office/tv_002.mdl"
+2187 faces
+651825 square feet [93862832.00 square inches]
+2 Displacements
+2784 Square Feet [401003.59 Square Inches]
+2187 patches before subdivision
+42907 patches after subdivision
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+109 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1830662, max 276
+transfer lists:  14.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(141239, 143363, 106914)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(38805, 38559, 22264)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(13353, 12607, 5943)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(5228, 4552, 1811)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2246, 1794, 621)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1019, 750, 230)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(478, 328, 90)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(229, 147, 37)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(111, 68, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(55, 32, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(27, 15, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(14, 7, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(7, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0127 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/4096          816/196608   ( 0.4%) 
+brushes                385/16384        4620/196608   ( 2.3%) 
+brushsides            2756/163840      22048/1310720  ( 1.7%) 
+planes                2144/65536       42880/1310720  ( 3.3%) 
+vertexes              3565/65536       42780/786432   ( 5.4%) 
+nodes                 1191/65536       38112/2097152  ( 1.8%) 
+texinfos               397/12288       28584/884736   ( 3.2%) 
+texdata                 41/2048         1312/65536    ( 2.0%) 
+dispinfos                2/0             352/0        ( 0.0%) 
+disp_verts             162/0            3240/0        ( 0.0%) 
+disp_tris              256/0             512/0        ( 0.0%) 
+disp_lmsamples        5984/0            5984/0        ( 0.0%) 
+faces                 2187/65536      122472/3670016  ( 3.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1143/65536       64008/3670016  ( 1.7%) 
+leaves                1209/65536       38688/2097152  ( 1.8%) 
+leaffaces             2612/65536        5224/131072   ( 4.0%) 
+leafbrushes            950/65536        1900/131072   ( 1.4%) 
+areas                    6/1024           48/8192     ( 0.6%) 
+surfedges            15116/512000      60464/2048000  ( 3.0%) 
+edges                 8741/256000      34964/1024000  ( 3.4%) 
+LDR worldlights        109/8192         9592/720896   ( 1.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            168/32768        1680/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2613/65536        5226/131072   ( 4.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 1/1024          352/360448   ( 0.1%) 
+LDR lightdata         [variable]     2040896/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       35454/16777216 ( 0.2%) 
+entdata               [variable]       94975/393216   (24.2%) 
+LDR ambient table     1209/65536        4836/262144   ( 1.8%) 
+HDR ambient table     1209/65536        4836/262144   ( 1.8%) 
+LDR leaf ambient      4257/65536      119196/1835008  ( 6.5%) 
+HDR leaf ambient      1209/65536       33852/1835008  ( 1.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/44808    ( 0.0%) 
+pakfile               [variable]        8957/0        ( 0.0%) 
+physics               [variable]      156776/4194304  ( 3.7%) 
+physics terrain       [variable]         864/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 5972
+Writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+7 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_05*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day02_05 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day02_05 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (156776 bytes)
+WARNING! model "models/props_foliage/mall_pot_large01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/mall_big_plant01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/mall_small_palm01_medium.mdl" has mismatching model version (49, expected 48)! Expect problems.
+Error! prop_static using model "models/props/cs_office/file_cabinet3.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props/cs_office/file_cabinet3.mdl"!
+WARNING! model "models/props_office/tv_002.mdl" has mismatching model version (49, expected 48)! Expect problems.
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 829 texinfos to 397
+Reduced 46 texdatas to 41 (1072 bytes to 933)
+Writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+3 seconds elapsed
+
+
+
+12 threads
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.prt
+ 468 portalclusters
+1121 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 158 visible clusters (0.42%)
+Total clusters visible: 37928
+Average clusters visible: 81
+Building PAS...
+Average clusters audible: 159
+visdatasize:35454  compressed from 59904
+writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+PREP OK
+Warning! Invalid model version "models/props_foliage/mall_pot_large01.mdl"
+Warning! Invalid model version "models/props_foliage/mall_big_plant01.mdl"
+Warning! Invalid model version "models/props_foliage/mall_small_palm01_medium.mdl"
+Warning! Invalid model version "models/props_office/tv_002.mdl"
+2187 faces
+651825 square feet [93862832.00 square inches]
+2 Displacements
+2784 Square Feet [401003.59 Square Inches]
+2187 patches before subdivision
+42907 patches after subdivision
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+112 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1830662, max 276
+transfer lists:  14.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(136796, 137957, 104715)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(37901, 37214, 21840)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(13157, 12244, 5854)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(5187, 4456, 1793)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2237, 1768, 617)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1017, 743, 229)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(477, 326, 90)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(229, 147, 36)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(111, 68, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(55, 32, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(27, 15, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(14, 7, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(7, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0127 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/4096          816/196608   ( 0.4%) 
+brushes                385/16384        4620/196608   ( 2.3%) 
+brushsides            2756/163840      22048/1310720  ( 1.7%) 
+planes                2144/65536       42880/1310720  ( 3.3%) 
+vertexes              3565/65536       42780/786432   ( 5.4%) 
+nodes                 1191/65536       38112/2097152  ( 1.8%) 
+texinfos               397/12288       28584/884736   ( 3.2%) 
+texdata                 41/2048         1312/65536    ( 2.0%) 
+dispinfos                2/0             352/0        ( 0.0%) 
+disp_verts             162/0            3240/0        ( 0.0%) 
+disp_tris              256/0             512/0        ( 0.0%) 
+disp_lmsamples        5984/0            5984/0        ( 0.0%) 
+faces                 2187/65536      122472/3670016  ( 3.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1143/65536       64008/3670016  ( 1.7%) 
+leaves                1209/65536       38688/2097152  ( 1.8%) 
+leaffaces             2612/65536        5224/131072   ( 4.0%) 
+leafbrushes            950/65536        1900/131072   ( 1.4%) 
+areas                    6/1024           48/8192     ( 0.6%) 
+surfedges            15116/512000      60464/2048000  ( 3.0%) 
+edges                 8741/256000      34964/1024000  ( 3.4%) 
+LDR worldlights        112/8192         9856/720896   ( 1.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            168/32768        1680/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2613/65536        5226/131072   ( 4.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 1/1024          352/360448   ( 0.1%) 
+LDR lightdata         [variable]     2040896/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       35454/16777216 ( 0.2%) 
+entdata               [variable]       96280/393216   (24.5%) 
+LDR ambient table     1209/65536        4836/262144   ( 1.8%) 
+HDR ambient table     1209/65536        4836/262144   ( 1.8%) 
+LDR leaf ambient      4254/65536      119112/1835008  ( 6.5%) 
+HDR leaf ambient      1209/65536       33852/1835008  ( 1.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/44808    ( 0.0%) 
+pakfile               [variable]        8957/0        ( 0.0%) 
+physics               [variable]      156776/4194304  ( 3.7%) 
+physics terrain       [variable]         864/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 5972
+Writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+7 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_05*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day02_05 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day02_05 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (156776 bytes)
+WARNING! model "models/props_foliage/mall_pot_large01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/mall_big_plant01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/mall_small_palm01_medium.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_office/tv_002.mdl" has mismatching model version (49, expected 48)! Expect problems.
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 829 texinfos to 397
+Reduced 46 texdatas to 41 (1072 bytes to 933)
+Writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+3 seconds elapsed
+
+
+
+12 threads
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.prt
+ 468 portalclusters
+1121 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 158 visible clusters (0.42%)
+Total clusters visible: 37928
+Average clusters visible: 81
+Building PAS...
+Average clusters audible: 159
+visdatasize:35454  compressed from 59904
+writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+PREP OK
+Warning! Invalid model version "models/props_foliage/mall_pot_large01.mdl"
+Warning! Invalid model version "models/props_foliage/mall_big_plant01.mdl"
+Warning! Invalid model version "models/props_foliage/mall_small_palm01_medium.mdl"
+Warning! Invalid model version "models/props_office/tv_002.mdl"
+2187 faces
+651825 square feet [93862832.00 square inches]
+2 Displacements
+2784 Square Feet [401003.59 Square Inches]
+2187 patches before subdivision
+42907 patches after subdivision
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+114 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1829975, max 276
+transfer lists:  14.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(134753, 135373, 103139)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(37517, 36535, 21390)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(13095, 12056, 5700)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(5184, 4405, 1735)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2240, 1753, 592)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1018, 737, 218)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(477, 323, 85)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(228, 146, 34)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(111, 67, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(54, 31, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(27, 15, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(13, 7, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(7, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0130 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/4096          816/196608   ( 0.4%) 
+brushes                385/16384        4620/196608   ( 2.3%) 
+brushsides            2756/163840      22048/1310720  ( 1.7%) 
+planes                2144/65536       42880/1310720  ( 3.3%) 
+vertexes              3565/65536       42780/786432   ( 5.4%) 
+nodes                 1191/65536       38112/2097152  ( 1.8%) 
+texinfos               397/12288       28584/884736   ( 3.2%) 
+texdata                 41/2048         1312/65536    ( 2.0%) 
+dispinfos                2/0             352/0        ( 0.0%) 
+disp_verts             162/0            3240/0        ( 0.0%) 
+disp_tris              256/0             512/0        ( 0.0%) 
+disp_lmsamples        5984/0            5984/0        ( 0.0%) 
+faces                 2187/65536      122472/3670016  ( 3.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1143/65536       64008/3670016  ( 1.7%) 
+leaves                1209/65536       38688/2097152  ( 1.8%) 
+leaffaces             2612/65536        5224/131072   ( 4.0%) 
+leafbrushes            950/65536        1900/131072   ( 1.4%) 
+areas                    6/1024           48/8192     ( 0.6%) 
+surfedges            15116/512000      60464/2048000  ( 3.0%) 
+edges                 8741/256000      34964/1024000  ( 3.4%) 
+LDR worldlights        114/8192        10032/720896   ( 1.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            168/32768        1680/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2613/65536        5226/131072   ( 4.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 1/1024          352/360448   ( 0.1%) 
+LDR lightdata         [variable]     2040896/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       35454/16777216 ( 0.2%) 
+entdata               [variable]       97679/393216   (24.8%) 
+LDR ambient table     1209/65536        4836/262144   ( 1.8%) 
+HDR ambient table     1209/65536        4836/262144   ( 1.8%) 
+LDR leaf ambient      4246/65536      118888/1835008  ( 6.5%) 
+HDR leaf ambient      1209/65536       33852/1835008  ( 1.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/45136    ( 0.0%) 
+pakfile               [variable]        8957/0        ( 0.0%) 
+physics               [variable]      156776/4194304  ( 3.7%) 
+physics terrain       [variable]         864/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 5972
+Writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+7 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_05*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day02_05 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day02_05 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (159688 bytes)
+WARNING! model "models/props_foliage/mall_pot_large01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/mall_big_plant01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/mall_small_palm01_medium.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_office/tv_002.mdl" has mismatching model version (49, expected 48)! Expect problems.
+Error! To use model "models/tom/player/french_army/ce_male_asian.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model STATIC "models/tom/player/french_army/ce_male_asian.mdl"!
+Error! To use model "models/tom/props/french_army/rucksack1.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model STATIC "models/tom/props/french_army/rucksack1.mdl"!
+Error! To use model "models/tom/props/french_army/helmet1.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model STATIC "models/tom/props/french_army/helmet1.mdl"!
+Error! To use model "models/tom/props/french_army/vest.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model STATIC "models/tom/props/french_army/vest.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 842 texinfos to 399
+Reduced 46 texdatas to 40 (1072 bytes to 917)
+Writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+3 seconds elapsed
+
+
+
+12 threads
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.prt
+ 492 portalclusters
+1205 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 124 visible clusters (0.31%)
+Total clusters visible: 39640
+Average clusters visible: 80
+Building PAS...
+Average clusters audible: 156
+visdatasize:38340  compressed from 62976
+writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+PREP OK
+Warning! Invalid model version "models/props_foliage/mall_pot_large01.mdl"
+Warning! Invalid model version "models/props_foliage/mall_big_plant01.mdl"
+Warning! Invalid model version "models/props_foliage/mall_small_palm01_medium.mdl"
+Warning! Invalid model version "models/props_office/tv_002.mdl"
+2193 faces
+652149 square feet [93909536.00 square inches]
+2 Displacements
+2784 Square Feet [401003.59 Square Inches]
+2193 patches before subdivision
+42907 patches after subdivision
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+117 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1820399, max 276
+transfer lists:  13.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(140938, 143644, 109086)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(38798, 38672, 22638)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(13391, 12648, 5985)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(5246, 4565, 1797)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2253, 1796, 606)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1020, 749, 221)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(478, 326, 86)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(228, 146, 34)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(111, 67, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(54, 31, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(27, 15, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(13, 7, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(7, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0126 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/4096          816/196608   ( 0.4%) 
+brushes                393/16384        4716/196608   ( 2.4%) 
+brushsides            2804/163840      22432/1310720  ( 1.7%) 
+planes                2152/65536       43040/1310720  ( 3.3%) 
+vertexes              3616/65536       43392/786432   ( 5.5%) 
+nodes                 1226/65536       39232/2097152  ( 1.9%) 
+texinfos               399/12288       28728/884736   ( 3.2%) 
+texdata                 40/2048         1280/65536    ( 2.0%) 
+dispinfos                2/0             352/0        ( 0.0%) 
+disp_verts             162/0            3240/0        ( 0.0%) 
+disp_tris              256/0             512/0        ( 0.0%) 
+disp_lmsamples        5984/0            5984/0        ( 0.0%) 
+faces                 2193/65536      122808/3670016  ( 3.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1146/65536       64176/3670016  ( 1.7%) 
+leaves                1244/65536       39808/2097152  ( 1.9%) 
+leaffaces             2628/65536        5256/131072   ( 4.0%) 
+leafbrushes            948/65536        1896/131072   ( 1.4%) 
+areas                    6/1024           48/8192     ( 0.6%) 
+surfedges            15162/512000      60648/2048000  ( 3.0%) 
+edges                 8809/256000      35236/1024000  ( 3.4%) 
+LDR worldlights        117/8192        10296/720896   ( 1.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            180/32768        1800/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2787/65536        5574/131072   ( 4.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 1/1024          352/360448   ( 0.1%) 
+LDR lightdata         [variable]     2052072/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       38340/16777216 ( 0.2%) 
+entdata               [variable]       99287/393216   (25.2%) 
+LDR ambient table     1244/65536        4976/262144   ( 1.9%) 
+HDR ambient table     1244/65536        4976/262144   ( 1.9%) 
+LDR leaf ambient      4390/65536      122920/1835008  ( 6.7%) 
+HDR leaf ambient      1244/65536       34832/1835008  ( 1.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/45194    ( 0.0%) 
+pakfile               [variable]        8957/0        ( 0.0%) 
+physics               [variable]      159688/4194304  ( 3.8%) 
+physics terrain       [variable]         864/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 5994
+Writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+7 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_05*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day02_05 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day02_05 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (159688 bytes)
+WARNING! model "models/props_foliage/mall_pot_large01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/mall_big_plant01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/mall_small_palm01_medium.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_office/tv_002.mdl" has mismatching model version (49, expected 48)! Expect problems.
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 842 texinfos to 399
+Reduced 46 texdatas to 40 (1072 bytes to 917)
+Writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+3 seconds elapsed
+
+
+
+12 threads
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.prt
+ 492 portalclusters
+1205 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 124 visible clusters (0.31%)
+Total clusters visible: 39640
+Average clusters visible: 80
+Building PAS...
+Average clusters audible: 156
+visdatasize:38340  compressed from 62976
+writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+PREP OK
+Warning! Invalid model version "models/props_foliage/mall_pot_large01.mdl"
+Warning! Invalid model version "models/props_foliage/mall_big_plant01.mdl"
+Warning! Invalid model version "models/props_foliage/mall_small_palm01_medium.mdl"
+Warning! Invalid model version "models/props_office/tv_002.mdl"
+2193 faces
+652149 square feet [93909536.00 square inches]
+2 Displacements
+2784 Square Feet [401003.59 Square Inches]
+2193 patches before subdivision
+42907 patches after subdivision
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+117 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1820399, max 276
+transfer lists:  13.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(140938, 143644, 109086)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(38798, 38672, 22638)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(13391, 12648, 5985)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(5246, 4565, 1797)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2253, 1796, 606)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1020, 749, 221)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(478, 326, 86)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(228, 146, 34)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(111, 67, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(54, 31, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(27, 15, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(13, 7, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(7, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0126 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/4096          816/196608   ( 0.4%) 
+brushes                393/16384        4716/196608   ( 2.4%) 
+brushsides            2804/163840      22432/1310720  ( 1.7%) 
+planes                2152/65536       43040/1310720  ( 3.3%) 
+vertexes              3616/65536       43392/786432   ( 5.5%) 
+nodes                 1226/65536       39232/2097152  ( 1.9%) 
+texinfos               399/12288       28728/884736   ( 3.2%) 
+texdata                 40/2048         1280/65536    ( 2.0%) 
+dispinfos                2/0             352/0        ( 0.0%) 
+disp_verts             162/0            3240/0        ( 0.0%) 
+disp_tris              256/0             512/0        ( 0.0%) 
+disp_lmsamples        5984/0            5984/0        ( 0.0%) 
+faces                 2193/65536      122808/3670016  ( 3.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1146/65536       64176/3670016  ( 1.7%) 
+leaves                1244/65536       39808/2097152  ( 1.9%) 
+leaffaces             2628/65536        5256/131072   ( 4.0%) 
+leafbrushes            948/65536        1896/131072   ( 1.4%) 
+areas                    6/1024           48/8192     ( 0.6%) 
+surfedges            15162/512000      60648/2048000  ( 3.0%) 
+edges                 8809/256000      35236/1024000  ( 3.4%) 
+LDR worldlights        117/8192        10296/720896   ( 1.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            180/32768        1800/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2787/65536        5574/131072   ( 4.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 1/1024          352/360448   ( 0.1%) 
+LDR lightdata         [variable]     2052072/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       38340/16777216 ( 0.2%) 
+entdata               [variable]      102070/393216   (26.0%) 
+LDR ambient table     1244/65536        4976/262144   ( 1.9%) 
+HDR ambient table     1244/65536        4976/262144   ( 1.9%) 
+LDR leaf ambient      4390/65536      122920/1835008  ( 6.7%) 
+HDR leaf ambient      1244/65536       34832/1835008  ( 1.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/45194    ( 0.0%) 
+pakfile               [variable]        8957/0        ( 0.0%) 
+physics               [variable]      159688/4194304  ( 3.8%) 
+physics terrain       [variable]         864/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 5994
+Writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+7 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_05*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day02_05 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day02_05 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (161192 bytes)
+WARNING! model "models/props_foliage/mall_pot_large01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/mall_big_plant01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/mall_small_palm01_medium.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_office/tv_002.mdl" has mismatching model version (49, expected 48)! Expect problems.
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 853 texinfos to 406
+Reduced 47 texdatas to 40 (1097 bytes to 917)
+Writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+3 seconds elapsed
+
+
+
+12 threads
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.prt
+ 501 portalclusters
+1244 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 138 visible clusters (0.34%)
+Total clusters visible: 40263
+Average clusters visible: 80
+Building PAS...
+Average clusters audible: 158
+visdatasize:39024  compressed from 64128
+writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+PREP OK
+Warning! Invalid model version "models/props_foliage/mall_pot_large01.mdl"
+Warning! Invalid model version "models/props_foliage/mall_big_plant01.mdl"
+Warning! Invalid model version "models/props_foliage/mall_small_palm01_medium.mdl"
+Warning! Invalid model version "models/props_office/tv_002.mdl"
+2218 faces
+652149 square feet [93909568.00 square inches]
+2 Displacements
+2784 Square Feet [401003.59 Square Inches]
+2218 patches before subdivision
+42928 patches after subdivision
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+117 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1822828, max 276
+transfer lists:  13.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(141574, 144479, 109730)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(38932, 38878, 22768)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(13419, 12699, 6011)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(5252, 4578, 1803)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2254, 1799, 607)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1021, 750, 222)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(478, 326, 86)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(228, 146, 34)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(111, 67, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(54, 31, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(27, 15, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(13, 7, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(7, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0126 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/4096          816/196608   ( 0.4%) 
+brushes                397/16384        4764/196608   ( 2.4%) 
+brushsides            2828/163840      22624/1310720  ( 1.7%) 
+planes                2166/65536       43320/1310720  ( 3.3%) 
+vertexes              3653/65536       43836/786432   ( 5.6%) 
+nodes                 1239/65536       39648/2097152  ( 1.9%) 
+texinfos               406/12288       29232/884736   ( 3.3%) 
+texdata                 40/2048         1280/65536    ( 2.0%) 
+dispinfos                2/0             352/0        ( 0.0%) 
+disp_verts             162/0            3240/0        ( 0.0%) 
+disp_tris              256/0             512/0        ( 0.0%) 
+disp_lmsamples        5984/0            5984/0        ( 0.0%) 
+faces                 2218/65536      124208/3670016  ( 3.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1164/65536       65184/3670016  ( 1.8%) 
+leaves                1257/65536       40224/2097152  ( 1.9%) 
+leaffaces             2652/65536        5304/131072   ( 4.0%) 
+leafbrushes            952/65536        1904/131072   ( 1.5%) 
+areas                    6/1024           48/8192     ( 0.6%) 
+surfedges            15354/512000      61416/2048000  ( 3.0%) 
+edges                 8919/256000      35676/1024000  ( 3.5%) 
+LDR worldlights        117/8192        10296/720896   ( 1.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            182/32768        1820/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2829/65536        5658/131072   ( 4.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 1/1024          352/360448   ( 0.1%) 
+LDR lightdata         [variable]     2053708/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       39024/16777216 ( 0.2%) 
+entdata               [variable]      102843/393216   (26.2%) 
+LDR ambient table     1257/65536        5028/262144   ( 1.9%) 
+HDR ambient table     1257/65536        5028/262144   ( 1.9%) 
+LDR leaf ambient      4370/65536      122360/1835008  ( 6.7%) 
+HDR leaf ambient      1257/65536       35196/1835008  ( 1.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/45194    ( 0.0%) 
+pakfile               [variable]        8957/0        ( 0.0%) 
+physics               [variable]      161192/4194304  ( 3.8%) 
+physics terrain       [variable]         864/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 6064
+Writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+7 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_05*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day02_05 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day02_05 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (164200 bytes)
+WARNING! model "models/props_foliage/mall_pot_large01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/mall_big_plant01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/mall_small_palm01_medium.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_office/tv_002.mdl" has mismatching model version (49, expected 48)! Expect problems.
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 877 texinfos to 422
+Reduced 47 texdatas to 40 (1097 bytes to 917)
+Writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+3 seconds elapsed
+
+
+
+12 threads
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.prt
+ 522 portalclusters
+1309 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 138 visible clusters (0.33%)
+Total clusters visible: 42000
+Average clusters visible: 80
+Building PAS...
+Average clusters audible: 159
+visdatasize:41121  compressed from 75168
+writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+PREP OK
+Warning! Invalid model version "models/props_foliage/mall_pot_large01.mdl"
+Warning! Invalid model version "models/props_foliage/mall_big_plant01.mdl"
+Warning! Invalid model version "models/props_foliage/mall_small_palm01_medium.mdl"
+Warning! Invalid model version "models/props_office/tv_002.mdl"
+2276 faces
+652150 square feet [93909632.00 square inches]
+2 Displacements
+2784 Square Feet [401003.59 Square Inches]
+2276 patches before subdivision
+43040 patches after subdivision
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+117 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1837712, max 276
+transfer lists:  14.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(142709, 145910, 110843)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(39212, 39303, 23039)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(13481, 12811, 6069)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(5267, 4609, 1816)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2257, 1808, 610)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1021, 752, 222)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(478, 327, 86)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(228, 147, 34)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(111, 67, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(54, 31, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(27, 15, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(13, 7, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(7, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0123 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/4096          816/196608   ( 0.4%) 
+brushes                405/16384        4860/196608   ( 2.5%) 
+brushsides            2876/163840      23008/1310720  ( 1.8%) 
+planes                2196/65536       43920/1310720  ( 3.4%) 
+vertexes              3745/65536       44940/786432   ( 5.7%) 
+nodes                 1273/65536       40736/2097152  ( 1.9%) 
+texinfos               422/12288       30384/884736   ( 3.4%) 
+texdata                 40/2048         1280/65536    ( 2.0%) 
+dispinfos                2/0             352/0        ( 0.0%) 
+disp_verts             162/0            3240/0        ( 0.0%) 
+disp_tris              256/0             512/0        ( 0.0%) 
+disp_lmsamples        5984/0            5984/0        ( 0.0%) 
+faces                 2276/65536      127456/3670016  ( 3.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1200/65536       67200/3670016  ( 1.8%) 
+leaves                1291/65536       41312/2097152  ( 2.0%) 
+leaffaces             2736/65536        5472/131072   ( 4.2%) 
+leafbrushes            965/65536        1930/131072   ( 1.5%) 
+areas                    6/1024           48/8192     ( 0.6%) 
+surfedges            15788/512000      63152/2048000  ( 3.1%) 
+edges                 9165/256000      36660/1024000  ( 3.6%) 
+LDR worldlights        117/8192        10296/720896   ( 1.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            185/32768        1850/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2868/65536        5736/131072   ( 4.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 1/1024          352/360448   ( 0.1%) 
+LDR lightdata         [variable]     2058108/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       41121/16777216 ( 0.2%) 
+entdata               [variable]      104187/393216   (26.5%) 
+LDR ambient table     1291/65536        5164/262144   ( 2.0%) 
+HDR ambient table     1291/65536        5164/262144   ( 2.0%) 
+LDR leaf ambient      4431/65536      124068/1835008  ( 6.8%) 
+HDR leaf ambient      1291/65536       36148/1835008  ( 2.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/45194    ( 0.0%) 
+pakfile               [variable]        8957/0        ( 0.0%) 
+physics               [variable]      164200/4194304  ( 3.9%) 
+physics terrain       [variable]         864/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 6238
+Writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+7 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 34 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_05*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day02_05 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day02_05 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (165288 bytes)
+WARNING! model "models/props_foliage/mall_pot_large01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/mall_big_plant01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/mall_small_palm01_medium.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_office/tv_002.mdl" has mismatching model version (49, expected 48)! Expect problems.
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 877 texinfos to 422
+Reduced 47 texdatas to 40 (1097 bytes to 917)
+Writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+3 seconds elapsed
+
+
+
+12 threads
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.prt
+ 399 portalclusters
+ 929 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 113 visible clusters (0.55%)
+Total clusters visible: 20464
+Average clusters visible: 51
+Building PAS...
+Average clusters audible: 128
+visdatasize:25939  compressed from 44688
+writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+PREP OK
+Warning! Invalid model version "models/props_foliage/mall_pot_large01.mdl"
+Warning! Invalid model version "models/props_foliage/mall_big_plant01.mdl"
+Warning! Invalid model version "models/props_foliage/mall_small_palm01_medium.mdl"
+Warning! Invalid model version "models/props_office/tv_002.mdl"
+2162 faces
+658118 square feet [94769024.00 square inches]
+2 Displacements
+2784 Square Feet [401003.59 Square Inches]
+2162 patches before subdivision
+42100 patches after subdivision
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+117 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1761388, max 276
+transfer lists:  13.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(136164, 139049, 106875)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(37538, 37468, 22321)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(12803, 12121, 5826)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(5002, 4360, 1740)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2149, 1715, 585)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(976, 717, 214)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(459, 314, 83)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(220, 141, 33)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(107, 65, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(53, 30, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(26, 14, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(13, 7, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(7, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0126 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/4096          816/196608   ( 0.4%) 
+brushes                409/16384        4908/196608   ( 2.5%) 
+brushsides            2900/163840      23200/1310720  ( 1.8%) 
+planes                2200/65536       44000/1310720  ( 3.4%) 
+vertexes              3619/65536       43428/786432   ( 5.5%) 
+nodes                 1068/65536       34176/2097152  ( 1.6%) 
+texinfos               422/12288       30384/884736   ( 3.4%) 
+texdata                 40/2048         1280/65536    ( 2.0%) 
+dispinfos                2/0             352/0        ( 0.0%) 
+disp_verts             162/0            3240/0        ( 0.0%) 
+disp_tris              256/0             512/0        ( 0.0%) 
+disp_lmsamples        5984/0            5984/0        ( 0.0%) 
+faces                 2162/65536      121072/3670016  ( 3.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1196/65536       66976/3670016  ( 1.8%) 
+leaves                1086/65536       34752/2097152  ( 1.7%) 
+leaffaces             2633/65536        5266/131072   ( 4.0%) 
+leafbrushes            930/65536        1860/131072   ( 1.4%) 
+areas                    6/1024           48/8192     ( 0.6%) 
+surfedges            15269/512000      61076/2048000  ( 3.0%) 
+edges                 8985/256000      35940/1024000  ( 3.5%) 
+LDR worldlights        117/8192        10296/720896   ( 1.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            178/32768        1780/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2751/65536        5502/131072   ( 4.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 1/1024          352/360448   ( 0.1%) 
+LDR lightdata         [variable]     2101732/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       25939/16777216 ( 0.2%) 
+entdata               [variable]      104188/393216   (26.5%) 
+LDR ambient table     1086/65536        4344/262144   ( 1.7%) 
+HDR ambient table     1086/65536        4344/262144   ( 1.7%) 
+LDR leaf ambient      3556/65536       99568/1835008  ( 5.4%) 
+HDR leaf ambient      1086/65536       30408/1835008  ( 1.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/44718    ( 0.0%) 
+pakfile               [variable]        8957/0        ( 0.0%) 
+physics               [variable]      165288/4194304  ( 3.9%) 
+physics terrain       [variable]         864/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 5963
+Writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+7 seconds elapsed
+
+
+
+materialPath: E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 34 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_05*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day02_05 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day02_05 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (165288 bytes)
+WARNING! model "models/props_foliage/mall_pot_large01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/mall_big_plant01.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_foliage/mall_small_palm01_medium.mdl" has mismatching model version (49, expected 48)! Expect problems.
+WARNING! model "models/props_office/tv_002.mdl" has mismatching model version (49, expected 48)! Expect problems.
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 876 texinfos to 421
+Reduced 47 texdatas to 40 (1097 bytes to 917)
+Writing E:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+3 seconds elapsed
+
+
+
+12 threads
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+reading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.prt
+ 399 portalclusters
+ 929 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 113 visible clusters (0.55%)
+Total clusters visible: 20464
+Average clusters visible: 51
+Building PAS...
+Average clusters audible: 128
+visdatasize:25939  compressed from 44688
+writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+PREP OK
+Warning! Invalid model version "models/props_foliage/mall_pot_large01.mdl"
+Warning! Invalid model version "models/props_foliage/mall_big_plant01.mdl"
+Warning! Invalid model version "models/props_foliage/mall_small_palm01_medium.mdl"
+Warning! Invalid model version "models/props_office/tv_002.mdl"
+2162 faces
+658118 square feet [94769024.00 square inches]
+2 Displacements
+2784 Square Feet [401003.59 Square Inches]
+2162 patches before subdivision
+42100 patches after subdivision
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+light has _fifty_percent_distance of 867.000000 but _zero_percent_distance of 128.000000
+117 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1761388, max 276
+transfer lists:  13.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(136166, 139052, 106877)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(37539, 37469, 22322)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(12803, 12122, 5827)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(5002, 4360, 1740)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2149, 1715, 585)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(976, 717, 214)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(459, 314, 83)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(220, 141, 33)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(107, 65, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(53, 30, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(26, 14, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(13, 7, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(7, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(3, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0128 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  17/4096          816/196608   ( 0.4%) 
+brushes                409/16384        4908/196608   ( 2.5%) 
+brushsides            2900/163840      23200/1310720  ( 1.8%) 
+planes                2200/65536       44000/1310720  ( 3.4%) 
+vertexes              3619/65536       43428/786432   ( 5.5%) 
+nodes                 1068/65536       34176/2097152  ( 1.6%) 
+texinfos               421/12288       30312/884736   ( 3.4%) 
+texdata                 40/2048         1280/65536    ( 2.0%) 
+dispinfos                2/0             352/0        ( 0.0%) 
+disp_verts             162/0            3240/0        ( 0.0%) 
+disp_tris              256/0             512/0        ( 0.0%) 
+disp_lmsamples        5984/0            5984/0        ( 0.0%) 
+faces                 2162/65536      121072/3670016  ( 3.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1196/65536       66976/3670016  ( 1.8%) 
+leaves                1086/65536       34752/2097152  ( 1.7%) 
+leaffaces             2633/65536        5266/131072   ( 4.0%) 
+leafbrushes            930/65536        1860/131072   ( 1.4%) 
+areas                    6/1024           48/8192     ( 0.6%) 
+surfedges            15269/512000      61076/2048000  ( 3.0%) 
+edges                 8985/256000      35940/1024000  ( 3.5%) 
+LDR worldlights        117/8192        10296/720896   ( 1.4%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            178/32768        1780/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2751/65536        5502/131072   ( 4.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 1/1024          352/360448   ( 0.1%) 
+LDR lightdata         [variable]     2101972/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       25939/16777216 ( 0.2%) 
+entdata               [variable]      104188/393216   (26.5%) 
+LDR ambient table     1086/65536        4344/262144   ( 1.7%) 
+HDR ambient table     1086/65536        4344/262144   ( 1.7%) 
+LDR leaf ambient      3556/65536       99568/1835008  ( 5.4%) 
+HDR leaf ambient      1086/65536       30408/1835008  ( 1.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/44718    ( 0.0%) 
+pakfile               [variable]        8957/0        ( 0.0%) 
+physics               [variable]      165288/4194304  ( 3.9%) 
+physics terrain       [variable]         864/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 5963
+Writing e:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\trainingcenter\maps\trainingcenter.bsp
+7 seconds elapsed
