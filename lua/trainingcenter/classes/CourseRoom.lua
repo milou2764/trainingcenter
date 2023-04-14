@@ -1,7 +1,7 @@
 ---@class CourseRoom:MRP.Room The first room trainees will be teleported in
 ---@field button Entity The invisible button trainees will have to push to teleport to the next room
 MRP.CourseRoom = {
-    timeLimit = 12
+    timeLimit = 120
 }
 if SERVER then
     MRP.CourseRoom.nextRooms = MRP.trainingCenter.grenadeRooms

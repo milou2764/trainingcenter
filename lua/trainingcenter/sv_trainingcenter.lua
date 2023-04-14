@@ -1,11 +1,31 @@
-concommand.Add("getposeye", function(ply,cmd,args,argStr)
-    local pos = ply:GetEyeTrace().HitPos
+local function vectorToString(pos)
     local x = math.Round(pos.x, 0)
     local y = math.Round(pos.y, 0)
     local z = math.Round(pos.z, 0)
-    local nicePos = "Vector(" .. x .. ", " .. y .. ", " .. z .. ")"
+    return "Vector(" .. x .. ", " .. y .. ", " .. z .. ")"
+end
+local function angleToString(ang)
+    local x = math.Round(ang.x, 0)
+    local y = math.Round(ang.y, 0)
+    local z = math.Round(ang.z, 0)
+    return "Angle(" .. x .. ", " .. y .. ", " .. z .. ")"
+end
+concommand.Add("getposeye", function(ply,cmd,args,argStr)
+    local pos = ply:GetEyeTrace().HitPos
+    local nicePos = vectorToString(pos)
     print(nicePos)
     ply:ChatPrint(nicePos)
+end)
+concommand.Add("getplayerposnang", function(ply,cmd,args,argStr)
+    local pos = ply:GetPos()
+    local nicePos = vectorToString(pos)
+    print(nicePos)
+    ply:ChatPrint(nicePos)
+    local ang = ply:GetAngles()
+    local niceAng = angleToString(ang)
+    print(niceAng)
+    ply:ChatPrint(niceAng)
+    SetClipboardText( "local pos = " .. nicePos .. "\nlocal ang = " .. niceAng .. "\n")
 end)
 concommand.Add("getid", function(ply,cmd,args,argStr)
     print(tostring(ply:GetEyeTrace().Entity:MapCreationID()))
@@ -24,7 +44,7 @@ local function initTargets(rooms)
     end
 end
 hook.Add("InitPostEntity", "MRP::trainingCenter::init", function ()
-    local receptionnist = ents.Create("mrp_receptionnist")
+    local receptionnist = ents.Create("mrp_receptionist")
     receptionnist:SetPos(MRP.trainingCenter.receptionnistPos)
     receptionnist:SetAngles(MRP.trainingCenter.receptionnistAng)
     receptionnist:Spawn()

@@ -9,7 +9,6 @@ MRP.Room.timeBeforeTP = 5
 if SERVER then
     util.AddNetworkString("trainingCenter::countDown")
     util.AddNetworkString("trainingCenter::setTimeLimit")
-    MRP.Room.netName = 'room'
     function MRP.Room:setTrainee(trainee)
         self.trainee = trainee
     end
@@ -17,8 +16,7 @@ if SERVER then
         net.Start("trainingCenter::setTimeLimit")
         net.WriteInt(self.timeLimit, 32)
         net.Send(self.trainee)
-        -- TODO: make this timer unique to the rooms
-        timer.Create("trainingCenter::" .. self.netName .. "::timer", self.timeLimit, 1, function ()
+        timer.Create("trainingCenter::" .. tostring(self) .. "::timer", self.timeLimit, 1, function ()
             self:timeOut()
         end)
     end
@@ -52,7 +50,7 @@ if SERVER then
         end
     end
     function MRP.Room:traineeLeft()
-        timer.Remove("trainingCenter::" .. self.netName .. "::timer")
+        timer.Remove("trainingCenter::" .. tostring(self) .. "::timer")
         self.trainee = nil
     end
 else

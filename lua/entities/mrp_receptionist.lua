@@ -1,10 +1,6 @@
----@diagnostic disable: undefined-field
-ENT.Base = "base_ai"
-ENT.Type = "ai"
-ENT.Category = "MRP"
-ENT.PrintName = "Réceptionniste du CIRFA"
-ENT.AutomaticFrameAdvance = true
-ENT.Spawnable = true
+
+AddCSLuaFile()
+DEFINE_BASECLASS( "base_ai" )
 
 if SERVER then
     util.AddNetworkString("MRP::cirfaReception")
@@ -35,9 +31,9 @@ if SERVER then
             table.insert(MRP.waitingTrainees, ply)
         end
     end)
-end
+    
+else
 
-if CLIENT then
     net.Receive("MRP::cirfaReception", function ()
         local ply = LocalPlayer()
         local frame = vgui.Create("DFrame")

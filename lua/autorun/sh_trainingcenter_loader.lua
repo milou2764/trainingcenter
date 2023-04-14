@@ -16,11 +16,14 @@ if CLIENT then
     include("trainingcenter/classes/GrenadeRoom.lua")
     include("trainingcenter/classes/CourseRoom.lua")
     include("trainingcenter/classes/TargetRoom.lua")
-    include("trainingcenter/cl_trainingcenter.lua")
 else
     include("trainingcenter/classes/Room.lua")
     include("trainingcenter/classes/GrenadeRoom.lua")
     include("trainingcenter/classes/CourseRoom.lua")
     include("trainingcenter/classes/TargetRoom.lua")
+end
+if CLIENT then
+    include("trainingcenter/cl_trainingcenter.lua")
+else
     include("trainingcenter/sv_trainingcenter.lua")
 end
